@@ -20,7 +20,7 @@ class HomeController
     {
         $data = [
             'title' => '关于我们',
-            'content' => '这是一个极简的PHP框架示例'
+            'content' => '这是一个极简的PHP框架示例1111'
         ];
         
         View::render('home/about', $data);
