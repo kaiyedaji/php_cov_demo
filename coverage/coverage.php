@@ -2,7 +2,7 @@
 //var_dump(extension_loaded('pcov'));
 //var_dump(ini_get('pcov.enabled'));
 
-require_once dirname(__FILE__) . '/vendor/autoload.php'; # 在composer生成的vender同级目录
+require_once 'D:\code\php_cov_demo\vendor\autoload.php'; # 在composer生成的vender同级目录
 use SebastianBergmann\CodeCoverage\CodeCoverage;
 use SebastianBergmann\CodeCoverage\Driver\Selector;
 use SebastianBergmann\CodeCoverage\Filter;

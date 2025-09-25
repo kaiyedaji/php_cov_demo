@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d09742b25d2555433f848aea81b07960",
+    "content-hash": "cb14f7f60d1793421a22f5134891cc94",
     "packages": [
         {
             "name": "brick/math",
@@ -7259,13 +7259,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpcov/zipball/8ec45dde34a84914a0ace355fbd6d7af2242c9a4",
                 "reference": "8ec45dde34a84914a0ace355fbd6d7af2242c9a4",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.3",

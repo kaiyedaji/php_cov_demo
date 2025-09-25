@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1758167982">
-  <project timestamp="1758167982">
+<coverage generated="1758771082">
+  <project timestamp="1758771082">
     <file name="D:\code\lumen-7.0.0\app\Http\Controllers\Controller.php">
       <class name="App\Http\Controllers\Controller" namespace="global">
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
