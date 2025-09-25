@@ -22,5 +22,10 @@ class ExampleController extends Controller
         return $username;
     }
 
+    public function userInfo()
+    {
+        return ['name'=>'zhangsan','age'=>18];
+    }
+
     //
 }
