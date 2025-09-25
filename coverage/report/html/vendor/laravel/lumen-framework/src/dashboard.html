@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for D:\code\lumen-7.0.0\vendor\laravel\lumen-framework\src</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../_css/bootstrap.min.css?v=9.2.32" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/nv.d3.min.css?v=9.2.32" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/style.css?v=9.2.32" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../index.html">D:\code\lumen-7.0.0</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">vendor</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">laravel</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">lumen-framework</a></li>
+         <li class="breadcrumb-item"><a href="index.html">src</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Bootstrap/LoadEnvironmentVariables.php.html#10">Laravel\Lumen\Bootstrap\LoadEnvironmentVariables</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Request.php.html#10">Laravel\Lumen\Http\Request</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/ProvidesConvenienceMethods.php.html#14">Laravel\Lumen\Routing\ProvidesConvenienceMethods</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/Router.php.html#7">Laravel\Lumen\Routing\Router</a></td><td class="text-right">1%</td></tr>
+       <tr><td><a href="Application.php.html#46">Laravel\Lumen\Application</a></td><td class="text-right">4%</td></tr>
+       <tr><td><a href="Concerns/RegistersExceptionHandlers.php.html#14">Laravel\Lumen\Concerns\RegistersExceptionHandlers</a></td><td class="text-right">13%</td></tr>
+       <tr><td><a href="Routing/Controller.php.html#5">Laravel\Lumen\Routing\Controller</a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#27">Laravel\Lumen\Concerns\RoutesRequests</a></td><td class="text-right">41%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Application.php.html#46">Laravel\Lumen\Application</a></td><td class="text-right">9061</td></tr>
+       <tr><td><a href="Routing/Router.php.html#7">Laravel\Lumen\Routing\Router</a></td><td class="text-right">2982</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#27">Laravel\Lumen\Concerns\RoutesRequests</a></td><td class="text-right">738</td></tr>
+       <tr><td><a href="Routing/ProvidesConvenienceMethods.php.html#14">Laravel\Lumen\Routing\ProvidesConvenienceMethods</a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="Concerns/RegistersExceptionHandlers.php.html#14">Laravel\Lumen\Concerns\RegistersExceptionHandlers</a></td><td class="text-right">139</td></tr>
+       <tr><td><a href="Http/Request.php.html#10">Laravel\Lumen\Http\Request</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Bootstrap/LoadEnvironmentVariables.php.html#10">Laravel\Lumen\Bootstrap\LoadEnvironmentVariables</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Routing/Controller.php.html#5">Laravel\Lumen\Routing\Controller</a></td><td class="text-right">21</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Application.php.html#120"><abbr title="Laravel\Lumen\Application::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/Router.php.html#208"><abbr title="Laravel\Lumen\Routing\Router::parseAction">parseAction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/Router.php.html#386"><abbr title="Laravel\Lumen\Routing\Router::patch">patch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/Router.php.html#372"><abbr title="Laravel\Lumen\Routing\Router::put">put</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/Router.php.html#358"><abbr title="Laravel\Lumen\Routing\Router::post">post</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/Router.php.html#344"><abbr title="Laravel\Lumen\Routing\Router::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/Router.php.html#330"><abbr title="Laravel\Lumen\Routing\Router::head">head</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/Router.php.html#310"><abbr title="Laravel\Lumen\Routing\Router::mergeAsGroup">mergeAsGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/Router.php.html#290"><abbr title="Laravel\Lumen\Routing\Router::mergeMiddlewareGroup">mergeMiddlewareGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/Router.php.html#277"><abbr title="Laravel\Lumen\Routing\Router::prependGroupNamespace">prependGroupNamespace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/Router.php.html#261"><abbr title="Laravel\Lumen\Routing\Router::mergeNamespaceGroup">mergeNamespaceGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/Router.php.html#240"><abbr title="Laravel\Lumen\Routing\Router::mergeGroupAttributes">mergeGroupAttributes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/Router.php.html#228"><abbr title="Laravel\Lumen\Routing\Router::hasGroupStack">hasGroupStack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/Router.php.html#165"><abbr title="Laravel\Lumen\Routing\Router::addRoute">addRoute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/Router.php.html#414"><abbr title="Laravel\Lumen\Routing\Router::options">options</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/Router.php.html#146"><abbr title="Laravel\Lumen\Routing\Router::formatGroupPrefix">formatGroupPrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/Router.php.html#128"><abbr title="Laravel\Lumen\Routing\Router::formatUsesPrefix">formatUsesPrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/Router.php.html#116"><abbr title="Laravel\Lumen\Routing\Router::mergeWithLastGroup">mergeWithLastGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/Router.php.html#89"><abbr title="Laravel\Lumen\Routing\Router::mergeGroup">mergeGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/Router.php.html#73"><abbr title="Laravel\Lumen\Routing\Router::updateGroupStack">updateGroupStack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/Router.php.html#54"><abbr title="Laravel\Lumen\Routing\Router::group">group</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/Router.php.html#42"><abbr title="Laravel\Lumen\Routing\Router::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/Controller.php.html#23"><abbr title="Laravel\Lumen\Routing\Controller::middleware">middleware</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#134"><abbr title="Laravel\Lumen\Application::bootstrapContainer">bootstrapContainer</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Request.php.html#59"><abbr title="Laravel\Lumen\Http\Request::fingerprint">fingerprint</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Request.php.html#41"><abbr title="Laravel\Lumen\Http\Request::route">route</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Request.php.html#18"><abbr title="Laravel\Lumen\Http\Request::routeIs">routeIs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/Router.php.html#400"><abbr title="Laravel\Lumen\Routing\Router::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Concerns/RegistersExceptionHandlers.php.html#26"><abbr title="Laravel\Lumen\Concerns\RegistersExceptionHandlers::abort">abort</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Bootstrap/LoadEnvironmentVariables.php.html#63"><abbr title="Laravel\Lumen\Bootstrap\LoadEnvironmentVariables::createDotenv">createDotenv</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#459"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::shouldSkipMiddleware">shouldSkipMiddleware</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/ProvidesConvenienceMethods.php.html#195"><abbr title="Laravel\Lumen\Routing\ProvidesConvenienceMethods::dispatchNow">dispatchNow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/ProvidesConvenienceMethods.php.html#183"><abbr title="Laravel\Lumen\Routing\ProvidesConvenienceMethods::dispatch">dispatch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/ProvidesConvenienceMethods.php.html#168"><abbr title="Laravel\Lumen\Routing\ProvidesConvenienceMethods::parseAbilityAndArguments">parseAbilityAndArguments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/ProvidesConvenienceMethods.php.html#154"><abbr title="Laravel\Lumen\Routing\ProvidesConvenienceMethods::authorizeForUser">authorizeForUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/ProvidesConvenienceMethods.php.html#137"><abbr title="Laravel\Lumen\Routing\ProvidesConvenienceMethods::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/ProvidesConvenienceMethods.php.html#119"><abbr title="Laravel\Lumen\Routing\ProvidesConvenienceMethods::formatValidationErrors">formatValidationErrors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/ProvidesConvenienceMethods.php.html#107"><abbr title="Laravel\Lumen\Routing\ProvidesConvenienceMethods::buildFailedValidationResponse">buildFailedValidationResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/ProvidesConvenienceMethods.php.html#97"><abbr title="Laravel\Lumen\Routing\ProvidesConvenienceMethods::throwValidationException">throwValidationException</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/ProvidesConvenienceMethods.php.html#81"><abbr title="Laravel\Lumen\Routing\ProvidesConvenienceMethods::extractInputFromRules">extractInputFromRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/ProvidesConvenienceMethods.php.html#63"><abbr title="Laravel\Lumen\Routing\ProvidesConvenienceMethods::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/ProvidesConvenienceMethods.php.html#47"><abbr title="Laravel\Lumen\Routing\ProvidesConvenienceMethods::formatErrorsUsing">formatErrorsUsing</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/ProvidesConvenienceMethods.php.html#36"><abbr title="Laravel\Lumen\Routing\ProvidesConvenienceMethods::buildResponseUsing">buildResponseUsing</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#399"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::gatherMiddlewareClassNames">gatherMiddlewareClassNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Concerns/RegistersExceptionHandlers.php.html#78"><abbr title="Laravel\Lumen\Concerns\RegistersExceptionHandlers::fatalErrorFromPhpError">fatalErrorFromPhpError</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#366"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::callLumenControllerWithMiddleware">callLumenControllerWithMiddleware</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#226"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::handleDispatcherResponse">handleDispatcherResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#215"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::setDispatcher">setDispatcher</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#200"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::createDispatcher">createDispatcher</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#128"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::callTerminableMiddleware">callTerminableMiddleware</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#90"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#80"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::routeMiddleware">routeMiddleware</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#63"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::middleware">middleware</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Concerns/RegistersExceptionHandlers.php.html#133"><abbr title="Laravel\Lumen\Concerns\RegistersExceptionHandlers::resolveExceptionHandler">resolveExceptionHandler</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Concerns/RegistersExceptionHandlers.php.html#115"><abbr title="Laravel\Lumen\Concerns\RegistersExceptionHandlers::handleException">handleException</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Concerns/RegistersExceptionHandlers.php.html#100"><abbr title="Laravel\Lumen\Concerns\RegistersExceptionHandlers::sendExceptionToHandler">sendExceptionToHandler</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Concerns/RegistersExceptionHandlers.php.html#89"><abbr title="Laravel\Lumen\Concerns\RegistersExceptionHandlers::isFatal">isFatal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Bootstrap/LoadEnvironmentVariables.php.html#78"><abbr title="Laravel\Lumen\Bootstrap\LoadEnvironmentVariables::writeErrorAndDie">writeErrorAndDie</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Request.php.html#76"><abbr title="Laravel\Lumen\Http\Request::offsetExists">offsetExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Bootstrap/LoadEnvironmentVariables.php.html#46"><abbr title="Laravel\Lumen\Bootstrap\LoadEnvironmentVariables::bootstrap">bootstrap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#401"><abbr title="Laravel\Lumen\Application::registerDatabaseBindings">registerDatabaseBindings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#571"><abbr title="Laravel\Lumen\Application::registerPsrResponseBindings">registerPsrResponseBindings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#552"><abbr title="Laravel\Lumen\Application::registerPsrRequestBindings">registerPsrRequestBindings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Bootstrap/LoadEnvironmentVariables.php.html#33"><abbr title="Laravel\Lumen\Bootstrap\LoadEnvironmentVariables::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#519"><abbr title="Laravel\Lumen\Application::registerRouterBindings">registerRouterBindings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#504"><abbr title="Laravel\Lumen\Application::registerQueueBindings">registerQueueBindings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#490"><abbr title="Laravel\Lumen\Application::registerLogBindings">registerLogBindings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#476"><abbr title="Laravel\Lumen\Application::registerHashBindings">registerHashBindings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#458"><abbr title="Laravel\Lumen\Application::registerFilesystemBindings">registerFilesystemBindings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#446"><abbr title="Laravel\Lumen\Application::registerFilesBindings">registerFilesBindings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#432"><abbr title="Laravel\Lumen\Application::registerEventBindings">registerEventBindings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#420"><abbr title="Laravel\Lumen\Application::registerEncrypterBindings">registerEncrypterBindings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#389"><abbr title="Laravel\Lumen\Application::registerConfigBindings">registerConfigBindings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#605"><abbr title="Laravel\Lumen\Application::getLanguagePath">getLanguagePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#377"><abbr title="Laravel\Lumen\Application::registerComposerBindings">registerComposerBindings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#362"><abbr title="Laravel\Lumen\Application::registerCacheBindings">registerCacheBindings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#348"><abbr title="Laravel\Lumen\Application::registerBusBindings">registerBusBindings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#332"><abbr title="Laravel\Lumen\Application::registerBroadcastingBindings">registerBroadcastingBindings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#308"><abbr title="Laravel\Lumen\Application::registerAuthBindings">registerAuthBindings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#274"><abbr title="Laravel\Lumen\Application::bootProvider">bootProvider</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#247"><abbr title="Laravel\Lumen\Application::registerDeferredProvider">registerDeferredProvider</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#220"><abbr title="Laravel\Lumen\Application::register">register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#209"><abbr title="Laravel\Lumen\Application::providerIsLoaded">providerIsLoaded</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#184"><abbr title="Laravel\Lumen\Application::environment">environment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#173"><abbr title="Laravel\Lumen\Application::isDownForMaintenance">isDownForMaintenance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#153"><abbr title="Laravel\Lumen\Application::bootstrapRouter">bootstrapRouter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#587"><abbr title="Laravel\Lumen\Application::registerTranslationBindings">registerTranslationBindings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Routing/ProvidesConvenienceMethods.php.html#205"><abbr title="Laravel\Lumen\Routing\ProvidesConvenienceMethods::getValidationFactory">getValidationFactory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#619"><abbr title="Laravel\Lumen\Application::registerUrlGeneratorBindings">registerUrlGeneratorBindings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#907"><abbr title="Laravel\Lumen\Application::prepareForConsoleCommand">prepareForConsoleCommand</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#886"><abbr title="Laravel\Lumen\Application::runningInConsole">runningInConsole</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#876"><abbr title="Laravel\Lumen\Application::eventsAreCached">eventsAreCached</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#927"><abbr title="Laravel\Lumen\Application::getNamespace">getNamespace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#866"><abbr title="Laravel\Lumen\Application::resourcePath">resourcePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#851"><abbr title="Laravel\Lumen\Application::useStoragePath">useStoragePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#951"><abbr title="Laravel\Lumen\Application::flush">flush</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#631"><abbr title="Laravel\Lumen\Application::registerValidatorBindings">registerValidatorBindings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#976"><abbr title="Laravel\Lumen\Application::getLocale">getLocale</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#987"><abbr title="Laravel\Lumen\Application::setLocale">setLocale</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#840"><abbr title="Laravel\Lumen\Application::storagePath">storagePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#829"><abbr title="Laravel\Lumen\Application::databasePath">databasePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#818"><abbr title="Laravel\Lumen\Application::configPath">configPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#999"><abbr title="Laravel\Lumen\Application::isLocale">isLocale</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#797"><abbr title="Laravel\Lumen\Application::basePath">basePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#1009"><abbr title="Laravel\Lumen\Application::registerContainerAliases">registerContainerAliases</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#786"><abbr title="Laravel\Lumen\Application::path">path</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#776"><abbr title="Laravel\Lumen\Application::withEloquent">withEloquent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#743"><abbr title="Laravel\Lumen\Application::withAliases">withAliases</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#728"><abbr title="Laravel\Lumen\Application::withFacades">withFacades</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#700"><abbr title="Laravel\Lumen\Application::getConfigurationPath">getConfigurationPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#677"><abbr title="Laravel\Lumen\Application::configure">configure</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#660"><abbr title="Laravel\Lumen\Application::loadComponent">loadComponent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#645"><abbr title="Laravel\Lumen\Application::registerViewBindings">registerViewBindings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#896"><abbr title="Laravel\Lumen\Application::runningUnitTests">runningUnitTests</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Concerns/RegistersExceptionHandlers.php.html#40"><abbr title="Laravel\Lumen\Concerns\RegistersExceptionHandlers::registerErrorHandling">registerErrorHandling</abbr></a></td><td class="text-right">27%</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#417"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::sendThroughPipeline">sendThroughPipeline</abbr></a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="Routing/Controller.php.html#34"><abbr title="Laravel\Lumen\Routing\Controller::getMiddlewareForMethod">getMiddlewareForMethod</abbr></a></td><td class="text-right">37%</td></tr>
+       <tr><td><a href="Concerns/RegistersExceptionHandlers.php.html#64"><abbr title="Laravel\Lumen\Concerns\RegistersExceptionHandlers::handleShutdown">handleShutdown</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#311"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::callControllerAction">callControllerAction</abbr></a></td><td class="text-right">54%</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#155"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::dispatch">dispatch</abbr></a></td><td class="text-right">58%</td></tr>
+       <tr><td><a href="Application.php.html#255"><abbr title="Laravel\Lumen\Application::boot">boot</abbr></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#382"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::callControllerCallable">callControllerCallable</abbr></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#274"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::callActionOnArrayBasedRoute">callActionOnArrayBasedRoute</abbr></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#244"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::handleFoundRoute">handleFoundRoute</abbr></a></td><td class="text-right">61%</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#342"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::callLumenController">callLumenController</abbr></a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="Application.php.html#532"><abbr title="Laravel\Lumen\Application::prepareRequest">prepareRequest</abbr></a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#107"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::run">run</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#435"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::prepareResponse">prepareResponse</abbr></a></td><td class="text-right">70%</td></tr>
+       <tr><td><a href="Application.php.html#288"><abbr title="Laravel\Lumen\Application::make">make</abbr></a></td><td class="text-right">71%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Routing/Router.php.html#165"><abbr title="Laravel\Lumen\Routing\Router::addRoute">addRoute</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Application.php.html#700"><abbr title="Laravel\Lumen\Application::getConfigurationPath">getConfigurationPath</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Routing/Router.php.html#89"><abbr title="Laravel\Lumen\Routing\Router::mergeGroup">mergeGroup</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#128"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::callTerminableMiddleware">callTerminableMiddleware</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Routing/Router.php.html#208"><abbr title="Laravel\Lumen\Routing\Router::parseAction">parseAction</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Application.php.html#220"><abbr title="Laravel\Lumen\Application::register">register</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Application.php.html#927"><abbr title="Laravel\Lumen\Application::getNamespace">getNamespace</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Application.php.html#184"><abbr title="Laravel\Lumen\Application::environment">environment</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Routing/Router.php.html#310"><abbr title="Laravel\Lumen\Routing\Router::mergeAsGroup">mergeAsGroup</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Routing/Router.php.html#128"><abbr title="Laravel\Lumen\Routing\Router::formatUsesPrefix">formatUsesPrefix</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Application.php.html#797"><abbr title="Laravel\Lumen\Application::basePath">basePath</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#226"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::handleDispatcherResponse">handleDispatcherResponse</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Request.php.html#18"><abbr title="Laravel\Lumen\Http\Request::routeIs">routeIs</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Routing/Controller.php.html#34"><abbr title="Laravel\Lumen\Routing\Controller::getMiddlewareForMethod">getMiddlewareForMethod</abbr></a></td><td class="text-right">14</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#274"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::callActionOnArrayBasedRoute">callActionOnArrayBasedRoute</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Routing/Router.php.html#277"><abbr title="Laravel\Lumen\Routing\Router::prependGroupNamespace">prependGroupNamespace</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#200"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::createDispatcher">createDispatcher</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Routing/Router.php.html#54"><abbr title="Laravel\Lumen\Routing\Router::group">group</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Request.php.html#41"><abbr title="Laravel\Lumen\Http\Request::route">route</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Routing/Router.php.html#290"><abbr title="Laravel\Lumen\Routing\Router::mergeMiddlewareGroup">mergeMiddlewareGroup</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Application.php.html#552"><abbr title="Laravel\Lumen\Application::registerPsrRequestBindings">registerPsrRequestBindings</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Application.php.html#743"><abbr title="Laravel\Lumen\Application::withAliases">withAliases</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Application.php.html#677"><abbr title="Laravel\Lumen\Application::configure">configure</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Application.php.html#660"><abbr title="Laravel\Lumen\Application::loadComponent">loadComponent</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Application.php.html#840"><abbr title="Laravel\Lumen\Application::storagePath">storagePath</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#399"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::gatherMiddlewareClassNames">gatherMiddlewareClassNames</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#311"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::callControllerAction">callControllerAction</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="Routing/ProvidesConvenienceMethods.php.html#63"><abbr title="Laravel\Lumen\Routing\ProvidesConvenienceMethods::validate">validate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Routing/ProvidesConvenienceMethods.php.html#81"><abbr title="Laravel\Lumen\Routing\ProvidesConvenienceMethods::extractInputFromRules">extractInputFromRules</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#459"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::shouldSkipMiddleware">shouldSkipMiddleware</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#90"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::handle">handle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Routing/ProvidesConvenienceMethods.php.html#119"><abbr title="Laravel\Lumen\Routing\ProvidesConvenienceMethods::formatValidationErrors">formatValidationErrors</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#63"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::middleware">middleware</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Concerns/RegistersExceptionHandlers.php.html#133"><abbr title="Laravel\Lumen\Concerns\RegistersExceptionHandlers::resolveExceptionHandler">resolveExceptionHandler</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Concerns/RegistersExceptionHandlers.php.html#115"><abbr title="Laravel\Lumen\Concerns\RegistersExceptionHandlers::handleException">handleException</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Concerns/RegistersExceptionHandlers.php.html#26"><abbr title="Laravel\Lumen\Concerns\RegistersExceptionHandlers::abort">abort</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Routing/ProvidesConvenienceMethods.php.html#107"><abbr title="Laravel\Lumen\Routing\ProvidesConvenienceMethods::buildFailedValidationResponse">buildFailedValidationResponse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Application.php.html#605"><abbr title="Laravel\Lumen\Application::getLanguagePath">getLanguagePath</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Routing/Router.php.html#261"><abbr title="Laravel\Lumen\Routing\Router::mergeNamespaceGroup">mergeNamespaceGroup</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Request.php.html#59"><abbr title="Laravel\Lumen\Http\Request::fingerprint">fingerprint</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Application.php.html#571"><abbr title="Laravel\Lumen\Application::registerPsrResponseBindings">registerPsrResponseBindings</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Application.php.html#728"><abbr title="Laravel\Lumen\Application::withFacades">withFacades</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Application.php.html#818"><abbr title="Laravel\Lumen\Application::configPath">configPath</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Application.php.html#829"><abbr title="Laravel\Lumen\Application::databasePath">databasePath</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Application.php.html#866"><abbr title="Laravel\Lumen\Application::resourcePath">resourcePath</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Application.php.html#886"><abbr title="Laravel\Lumen\Application::runningInConsole">runningInConsole</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Bootstrap/LoadEnvironmentVariables.php.html#46"><abbr title="Laravel\Lumen\Bootstrap\LoadEnvironmentVariables::bootstrap">bootstrap</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Bootstrap/LoadEnvironmentVariables.php.html#78"><abbr title="Laravel\Lumen\Bootstrap\LoadEnvironmentVariables::writeErrorAndDie">writeErrorAndDie</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Routing/Router.php.html#73"><abbr title="Laravel\Lumen\Routing\Router::updateGroupStack">updateGroupStack</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Routing/Router.php.html#146"><abbr title="Laravel\Lumen\Routing\Router::formatGroupPrefix">formatGroupPrefix</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Application.php.html#274"><abbr title="Laravel\Lumen\Application::bootProvider">bootProvider</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Routing/ProvidesConvenienceMethods.php.html#168"><abbr title="Laravel\Lumen\Routing\ProvidesConvenienceMethods::parseAbilityAndArguments">parseAbilityAndArguments</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#435"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::prepareResponse">prepareResponse</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#417"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::sendThroughPipeline">sendThroughPipeline</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Application.php.html#288"><abbr title="Laravel\Lumen\Application::make">make</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Concerns/RegistersExceptionHandlers.php.html#64"><abbr title="Laravel\Lumen\Concerns\RegistersExceptionHandlers::handleShutdown">handleShutdown</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#155"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::dispatch">dispatch</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Application.php.html#255"><abbr title="Laravel\Lumen\Application::boot">boot</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Concerns/RegistersExceptionHandlers.php.html#40"><abbr title="Laravel\Lumen\Concerns\RegistersExceptionHandlers::registerErrorHandling">registerErrorHandling</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#107"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::run">run</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#382"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::callControllerCallable">callControllerCallable</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#244"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::handleFoundRoute">handleFoundRoute</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Concerns/RoutesRequests.php.html#342"><abbr title="Laravel\Lumen\Concerns\RoutesRequests::callLumenController">callLumenController</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Application.php.html#532"><abbr title="Laravel\Lumen\Application::prepareRequest">prepareRequest</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.32</a> using <a href="https://secure.php.net/" target="_top">PHP 7.4.0</a> at Tue Sep 16 10:21:30 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../_js/jquery.min.js?v=9.2.32" type="text/javascript"></script>
+  <script src="../../../../_js/d3.min.js?v=9.2.32" type="text/javascript"></script>
+  <script src="../../../../_js/nv.d3.min.js?v=9.2.32" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([3,2,1,0,1,1,0,0,0,0,0,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([114,0,0,1,2,0,3,7,2,0,0,3], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[4.861111111111112,102,"<a href=\"Application.php.html#46\">Laravel\\Lumen\\Application<\/a>"],[0,6,"<a href=\"Bootstrap\/LoadEnvironmentVariables.php.html#10\">Laravel\\Lumen\\Bootstrap\\LoadEnvironmentVariables<\/a>"],[0,10,"<a href=\"Http\/Request.php.html#10\">Laravel\\Lumen\\Http\\Request<\/a>"],[100,0,"<a href=\"Routing\/Closure.php.html#5\">Laravel\\Lumen\\Routing\\Closure<\/a>"],[33.33333333333333,7,"<a href=\"Routing\/Controller.php.html#5\">Laravel\\Lumen\\Routing\\Controller<\/a>"],[1.0869565217391304,55,"<a href=\"Routing\/Router.php.html#7\">Laravel\\Lumen\\Routing\\Router<\/a>"],[13.793103448275861,14,"<a href=\"Concerns\/RegistersExceptionHandlers.php.html#14\">Laravel\\Lumen\\Concerns\\RegistersExceptionHandlers<\/a>"],[41.98473282442748,59,"<a href=\"Concerns\/RoutesRequests.php.html#27\">Laravel\\Lumen\\Concerns\\RoutesRequests<\/a>"],[0,18,"<a href=\"Routing\/ProvidesConvenienceMethods.php.html#14\">Laravel\\Lumen\\Routing\\ProvidesConvenienceMethods<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Application.php.html#120\">Laravel\\Lumen\\Application::__construct<\/a>"],[0,1,"<a href=\"Application.php.html#134\">Laravel\\Lumen\\Application::bootstrapContainer<\/a>"],[0,1,"<a href=\"Application.php.html#153\">Laravel\\Lumen\\Application::bootstrapRouter<\/a>"],[100,1,"<a href=\"Application.php.html#163\">Laravel\\Lumen\\Application::version<\/a>"],[0,1,"<a href=\"Application.php.html#173\">Laravel\\Lumen\\Application::isDownForMaintenance<\/a>"],[0,5,"<a href=\"Application.php.html#184\">Laravel\\Lumen\\Application::environment<\/a>"],[0,1,"<a href=\"Application.php.html#209\">Laravel\\Lumen\\Application::providerIsLoaded<\/a>"],[0,5,"<a href=\"Application.php.html#220\">Laravel\\Lumen\\Application::register<\/a>"],[0,1,"<a href=\"Application.php.html#247\">Laravel\\Lumen\\Application::registerDeferredProvider<\/a>"],[60,3,"<a href=\"Application.php.html#255\">Laravel\\Lumen\\Application::boot<\/a>"],[0,2,"<a href=\"Application.php.html#274\">Laravel\\Lumen\\Application::bootProvider<\/a>"],[71.42857142857143,4,"<a href=\"Application.php.html#288\">Laravel\\Lumen\\Application::make<\/a>"],[0,1,"<a href=\"Application.php.html#308\">Laravel\\Lumen\\Application::registerAuthBindings<\/a>"],[0,1,"<a href=\"Application.php.html#332\">Laravel\\Lumen\\Application::registerBroadcastingBindings<\/a>"],[0,1,"<a href=\"Application.php.html#348\">Laravel\\Lumen\\Application::registerBusBindings<\/a>"],[0,1,"<a href=\"Application.php.html#362\">Laravel\\Lumen\\Application::registerCacheBindings<\/a>"],[0,1,"<a href=\"Application.php.html#377\">Laravel\\Lumen\\Application::registerComposerBindings<\/a>"],[0,1,"<a href=\"Application.php.html#389\">Laravel\\Lumen\\Application::registerConfigBindings<\/a>"],[0,1,"<a href=\"Application.php.html#401\">Laravel\\Lumen\\Application::registerDatabaseBindings<\/a>"],[0,1,"<a href=\"Application.php.html#420\">Laravel\\Lumen\\Application::registerEncrypterBindings<\/a>"],[0,1,"<a href=\"Application.php.html#432\">Laravel\\Lumen\\Application::registerEventBindings<\/a>"],[0,1,"<a href=\"Application.php.html#446\">Laravel\\Lumen\\Application::registerFilesBindings<\/a>"],[0,1,"<a href=\"Application.php.html#458\">Laravel\\Lumen\\Application::registerFilesystemBindings<\/a>"],[0,1,"<a href=\"Application.php.html#476\">Laravel\\Lumen\\Application::registerHashBindings<\/a>"],[0,1,"<a href=\"Application.php.html#490\">Laravel\\Lumen\\Application::registerLogBindings<\/a>"],[0,1,"<a href=\"Application.php.html#504\">Laravel\\Lumen\\Application::registerQueueBindings<\/a>"],[0,1,"<a href=\"Application.php.html#519\">Laravel\\Lumen\\Application::registerRouterBindings<\/a>"],[62.5,2,"<a href=\"Application.php.html#532\">Laravel\\Lumen\\Application::prepareRequest<\/a>"],[0,3,"<a href=\"Application.php.html#552\">Laravel\\Lumen\\Application::registerPsrRequestBindings<\/a>"],[0,2,"<a href=\"Application.php.html#571\">Laravel\\Lumen\\Application::registerPsrResponseBindings<\/a>"],[0,1,"<a href=\"Application.php.html#587\">Laravel\\Lumen\\Application::registerTranslationBindings<\/a>"],[0,2,"<a href=\"Application.php.html#605\">Laravel\\Lumen\\Application::getLanguagePath<\/a>"],[0,1,"<a href=\"Application.php.html#619\">Laravel\\Lumen\\Application::registerUrlGeneratorBindings<\/a>"],[0,1,"<a href=\"Application.php.html#631\">Laravel\\Lumen\\Application::registerValidatorBindings<\/a>"],[0,1,"<a href=\"Application.php.html#645\">Laravel\\Lumen\\Application::registerViewBindings<\/a>"],[0,3,"<a href=\"Application.php.html#660\">Laravel\\Lumen\\Application::loadComponent<\/a>"],[0,3,"<a href=\"Application.php.html#677\">Laravel\\Lumen\\Application::configure<\/a>"],[0,6,"<a href=\"Application.php.html#700\">Laravel\\Lumen\\Application::getConfigurationPath<\/a>"],[0,2,"<a href=\"Application.php.html#728\">Laravel\\Lumen\\Application::withFacades<\/a>"],[0,3,"<a href=\"Application.php.html#743\">Laravel\\Lumen\\Application::withAliases<\/a>"],[0,1,"<a href=\"Application.php.html#776\">Laravel\\Lumen\\Application::withEloquent<\/a>"],[0,1,"<a href=\"Application.php.html#786\">Laravel\\Lumen\\Application::path<\/a>"],[0,4,"<a href=\"Application.php.html#797\">Laravel\\Lumen\\Application::basePath<\/a>"],[0,2,"<a href=\"Application.php.html#818\">Laravel\\Lumen\\Application::configPath<\/a>"],[0,2,"<a href=\"Application.php.html#829\">Laravel\\Lumen\\Application::databasePath<\/a>"],[0,3,"<a href=\"Application.php.html#840\">Laravel\\Lumen\\Application::storagePath<\/a>"],[0,1,"<a href=\"Application.php.html#851\">Laravel\\Lumen\\Application::useStoragePath<\/a>"],[0,2,"<a href=\"Application.php.html#866\">Laravel\\Lumen\\Application::resourcePath<\/a>"],[0,1,"<a href=\"Application.php.html#876\">Laravel\\Lumen\\Application::eventsAreCached<\/a>"],[0,2,"<a href=\"Application.php.html#886\">Laravel\\Lumen\\Application::runningInConsole<\/a>"],[0,1,"<a href=\"Application.php.html#896\">Laravel\\Lumen\\Application::runningUnitTests<\/a>"],[0,1,"<a href=\"Application.php.html#907\">Laravel\\Lumen\\Application::prepareForConsoleCommand<\/a>"],[0,5,"<a href=\"Application.php.html#927\">Laravel\\Lumen\\Application::getNamespace<\/a>"],[0,1,"<a href=\"Application.php.html#951\">Laravel\\Lumen\\Application::flush<\/a>"],[0,1,"<a href=\"Application.php.html#976\">Laravel\\Lumen\\Application::getLocale<\/a>"],[0,1,"<a href=\"Application.php.html#987\">Laravel\\Lumen\\Application::setLocale<\/a>"],[0,1,"<a href=\"Application.php.html#999\">Laravel\\Lumen\\Application::isLocale<\/a>"],[0,1,"<a href=\"Application.php.html#1009\">Laravel\\Lumen\\Application::registerContainerAliases<\/a>"],[0,1,"<a href=\"Bootstrap\/LoadEnvironmentVariables.php.html#33\">Laravel\\Lumen\\Bootstrap\\LoadEnvironmentVariables::__construct<\/a>"],[0,2,"<a href=\"Bootstrap\/LoadEnvironmentVariables.php.html#46\">Laravel\\Lumen\\Bootstrap\\LoadEnvironmentVariables::bootstrap<\/a>"],[0,1,"<a href=\"Bootstrap\/LoadEnvironmentVariables.php.html#63\">Laravel\\Lumen\\Bootstrap\\LoadEnvironmentVariables::createDotenv<\/a>"],[0,2,"<a href=\"Bootstrap\/LoadEnvironmentVariables.php.html#78\">Laravel\\Lumen\\Bootstrap\\LoadEnvironmentVariables::writeErrorAndDie<\/a>"],[0,4,"<a href=\"Http\/Request.php.html#18\">Laravel\\Lumen\\Http\\Request::routeIs<\/a>"],[0,3,"<a href=\"Http\/Request.php.html#41\">Laravel\\Lumen\\Http\\Request::route<\/a>"],[0,2,"<a href=\"Http\/Request.php.html#59\">Laravel\\Lumen\\Http\\Request::fingerprint<\/a>"],[0,1,"<a href=\"Http\/Request.php.html#76\">Laravel\\Lumen\\Http\\Request::offsetExists<\/a>"],[0,1,"<a href=\"Routing\/Controller.php.html#23\">Laravel\\Lumen\\Routing\\Controller::middleware<\/a>"],[37.5,6,"<a href=\"Routing\/Controller.php.html#34\">Laravel\\Lumen\\Routing\\Controller::getMiddlewareForMethod<\/a>"],[0,1,"<a href=\"Routing\/Router.php.html#42\">Laravel\\Lumen\\Routing\\Router::__construct<\/a>"],[0,3,"<a href=\"Routing\/Router.php.html#54\">Laravel\\Lumen\\Routing\\Router::group<\/a>"],[0,2,"<a href=\"Routing\/Router.php.html#73\">Laravel\\Lumen\\Routing\\Router::updateGroupStack<\/a>"],[0,6,"<a href=\"Routing\/Router.php.html#89\">Laravel\\Lumen\\Routing\\Router::mergeGroup<\/a>"],[0,1,"<a href=\"Routing\/Router.php.html#116\">Laravel\\Lumen\\Routing\\Router::mergeWithLastGroup<\/a>"],[0,4,"<a href=\"Routing\/Router.php.html#128\">Laravel\\Lumen\\Routing\\Router::formatUsesPrefix<\/a>"],[0,2,"<a href=\"Routing\/Router.php.html#146\">Laravel\\Lumen\\Routing\\Router::formatGroupPrefix<\/a>"],[0,9,"<a href=\"Routing\/Router.php.html#165\">Laravel\\Lumen\\Routing\\Router::addRoute<\/a>"],[0,5,"<a href=\"Routing\/Router.php.html#208\">Laravel\\Lumen\\Routing\\Router::parseAction<\/a>"],[0,1,"<a href=\"Routing\/Router.php.html#228\">Laravel\\Lumen\\Routing\\Router::hasGroupStack<\/a>"],[0,1,"<a href=\"Routing\/Router.php.html#240\">Laravel\\Lumen\\Routing\\Router::mergeGroupAttributes<\/a>"],[0,2,"<a href=\"Routing\/Router.php.html#261\">Laravel\\Lumen\\Routing\\Router::mergeNamespaceGroup<\/a>"],[0,3,"<a href=\"Routing\/Router.php.html#277\">Laravel\\Lumen\\Routing\\Router::prependGroupNamespace<\/a>"],[0,3,"<a href=\"Routing\/Router.php.html#290\">Laravel\\Lumen\\Routing\\Router::mergeMiddlewareGroup<\/a>"],[0,4,"<a href=\"Routing\/Router.php.html#310\">Laravel\\Lumen\\Routing\\Router::mergeAsGroup<\/a>"],[0,1,"<a href=\"Routing\/Router.php.html#330\">Laravel\\Lumen\\Routing\\Router::head<\/a>"],[0,1,"<a href=\"Routing\/Router.php.html#344\">Laravel\\Lumen\\Routing\\Router::get<\/a>"],[0,1,"<a href=\"Routing\/Router.php.html#358\">Laravel\\Lumen\\Routing\\Router::post<\/a>"],[0,1,"<a href=\"Routing\/Router.php.html#372\">Laravel\\Lumen\\Routing\\Router::put<\/a>"],[0,1,"<a href=\"Routing\/Router.php.html#386\">Laravel\\Lumen\\Routing\\Router::patch<\/a>"],[0,1,"<a href=\"Routing\/Router.php.html#400\">Laravel\\Lumen\\Routing\\Router::delete<\/a>"],[0,1,"<a href=\"Routing\/Router.php.html#414\">Laravel\\Lumen\\Routing\\Router::options<\/a>"],[100,1,"<a href=\"Routing\/Router.php.html#426\">Laravel\\Lumen\\Routing\\Router::getRoutes<\/a>"],[0,2,"<a href=\"Concerns\/RegistersExceptionHandlers.php.html#26\">Laravel\\Lumen\\Concerns\\RegistersExceptionHandlers::abort<\/a>"],[27.27272727272727,2,"<a href=\"Concerns\/RegistersExceptionHandlers.php.html#40\">Laravel\\Lumen\\Concerns\\RegistersExceptionHandlers::registerErrorHandling<\/a>"],[50,3,"<a href=\"Concerns\/RegistersExceptionHandlers.php.html#64\">Laravel\\Lumen\\Concerns\\RegistersExceptionHandlers::handleShutdown<\/a>"],[0,1,"<a href=\"Concerns\/RegistersExceptionHandlers.php.html#78\">Laravel\\Lumen\\Concerns\\RegistersExceptionHandlers::fatalErrorFromPhpError<\/a>"],[0,1,"<a href=\"Concerns\/RegistersExceptionHandlers.php.html#89\">Laravel\\Lumen\\Concerns\\RegistersExceptionHandlers::isFatal<\/a>"],[0,1,"<a href=\"Concerns\/RegistersExceptionHandlers.php.html#100\">Laravel\\Lumen\\Concerns\\RegistersExceptionHandlers::sendExceptionToHandler<\/a>"],[0,2,"<a href=\"Concerns\/RegistersExceptionHandlers.php.html#115\">Laravel\\Lumen\\Concerns\\RegistersExceptionHandlers::handleException<\/a>"],[0,2,"<a href=\"Concerns\/RegistersExceptionHandlers.php.html#133\">Laravel\\Lumen\\Concerns\\RegistersExceptionHandlers::resolveExceptionHandler<\/a>"],[0,2,"<a href=\"Concerns\/RoutesRequests.php.html#63\">Laravel\\Lumen\\Concerns\\RoutesRequests::middleware<\/a>"],[0,1,"<a href=\"Concerns\/RoutesRequests.php.html#80\">Laravel\\Lumen\\Concerns\\RoutesRequests::routeMiddleware<\/a>"],[0,2,"<a href=\"Concerns\/RoutesRequests.php.html#90\">Laravel\\Lumen\\Concerns\\RoutesRequests::handle<\/a>"],[66.66666666666666,3,"<a href=\"Concerns\/RoutesRequests.php.html#107\">Laravel\\Lumen\\Concerns\\RoutesRequests::run<\/a>"],[0,5,"<a href=\"Concerns\/RoutesRequests.php.html#128\">Laravel\\Lumen\\Concerns\\RoutesRequests::callTerminableMiddleware<\/a>"],[58.333333333333336,3,"<a href=\"Concerns\/RoutesRequests.php.html#155\">Laravel\\Lumen\\Concerns\\RoutesRequests::dispatch<\/a>"],[100,2,"<a href=\"Concerns\/RoutesRequests.php.html#184\">Laravel\\Lumen\\Concerns\\RoutesRequests::parseIncomingRequest<\/a>"],[0,3,"<a href=\"Concerns\/RoutesRequests.php.html#200\">Laravel\\Lumen\\Concerns\\RoutesRequests::createDispatcher<\/a>"],[0,1,"<a href=\"Concerns\/RoutesRequests.php.html#215\">Laravel\\Lumen\\Concerns\\RoutesRequests::setDispatcher<\/a>"],[0,4,"<a href=\"Concerns\/RoutesRequests.php.html#226\">Laravel\\Lumen\\Concerns\\RoutesRequests::handleDispatcherResponse<\/a>"],[61.53846153846154,2,"<a href=\"Concerns\/RoutesRequests.php.html#244\">Laravel\\Lumen\\Concerns\\RoutesRequests::handleFoundRoute<\/a>"],[60,8,"<a href=\"Concerns\/RoutesRequests.php.html#274\">Laravel\\Lumen\\Concerns\\RoutesRequests::callActionOnArrayBasedRoute<\/a>"],[54.54545454545454,5,"<a href=\"Concerns\/RoutesRequests.php.html#311\">Laravel\\Lumen\\Concerns\\RoutesRequests::callControllerAction<\/a>"],[62.5,2,"<a href=\"Concerns\/RoutesRequests.php.html#342\">Laravel\\Lumen\\Concerns\\RoutesRequests::callLumenController<\/a>"],[0,1,"<a href=\"Concerns\/RoutesRequests.php.html#366\">Laravel\\Lumen\\Concerns\\RoutesRequests::callLumenControllerWithMiddleware<\/a>"],[60,2,"<a href=\"Concerns\/RoutesRequests.php.html#382\">Laravel\\Lumen\\Concerns\\RoutesRequests::callControllerCallable<\/a>"],[0,3,"<a href=\"Concerns\/RoutesRequests.php.html#399\">Laravel\\Lumen\\Concerns\\RoutesRequests::gatherMiddlewareClassNames<\/a>"],[33.33333333333333,3,"<a href=\"Concerns\/RoutesRequests.php.html#417\">Laravel\\Lumen\\Concerns\\RoutesRequests::sendThroughPipeline<\/a>"],[70,5,"<a href=\"Concerns\/RoutesRequests.php.html#435\">Laravel\\Lumen\\Concerns\\RoutesRequests::prepareResponse<\/a>"],[0,2,"<a href=\"Concerns\/RoutesRequests.php.html#459\">Laravel\\Lumen\\Concerns\\RoutesRequests::shouldSkipMiddleware<\/a>"],[0,1,"<a href=\"Routing\/ProvidesConvenienceMethods.php.html#36\">Laravel\\Lumen\\Routing\\ProvidesConvenienceMethods::buildResponseUsing<\/a>"],[0,1,"<a href=\"Routing\/ProvidesConvenienceMethods.php.html#47\">Laravel\\Lumen\\Routing\\ProvidesConvenienceMethods::formatErrorsUsing<\/a>"],[0,2,"<a href=\"Routing\/ProvidesConvenienceMethods.php.html#63\">Laravel\\Lumen\\Routing\\ProvidesConvenienceMethods::validate<\/a>"],[0,2,"<a href=\"Routing\/ProvidesConvenienceMethods.php.html#81\">Laravel\\Lumen\\Routing\\ProvidesConvenienceMethods::extractInputFromRules<\/a>"],[0,1,"<a href=\"Routing\/ProvidesConvenienceMethods.php.html#97\">Laravel\\Lumen\\Routing\\ProvidesConvenienceMethods::throwValidationException<\/a>"],[0,2,"<a href=\"Routing\/ProvidesConvenienceMethods.php.html#107\">Laravel\\Lumen\\Routing\\ProvidesConvenienceMethods::buildFailedValidationResponse<\/a>"],[0,2,"<a href=\"Routing\/ProvidesConvenienceMethods.php.html#119\">Laravel\\Lumen\\Routing\\ProvidesConvenienceMethods::formatValidationErrors<\/a>"],[0,1,"<a href=\"Routing\/ProvidesConvenienceMethods.php.html#137\">Laravel\\Lumen\\Routing\\ProvidesConvenienceMethods::authorize<\/a>"],[0,1,"<a href=\"Routing\/ProvidesConvenienceMethods.php.html#154\">Laravel\\Lumen\\Routing\\ProvidesConvenienceMethods::authorizeForUser<\/a>"],[0,2,"<a href=\"Routing\/ProvidesConvenienceMethods.php.html#168\">Laravel\\Lumen\\Routing\\ProvidesConvenienceMethods::parseAbilityAndArguments<\/a>"],[0,1,"<a href=\"Routing\/ProvidesConvenienceMethods.php.html#183\">Laravel\\Lumen\\Routing\\ProvidesConvenienceMethods::dispatch<\/a>"],[0,1,"<a href=\"Routing\/ProvidesConvenienceMethods.php.html#195\">Laravel\\Lumen\\Routing\\ProvidesConvenienceMethods::dispatchNow<\/a>"],[0,1,"<a href=\"Routing\/ProvidesConvenienceMethods.php.html#205\">Laravel\\Lumen\\Routing\\ProvidesConvenienceMethods::getValidationFactory<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
