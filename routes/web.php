@@ -18,3 +18,7 @@ $router->get('/', function () use ($router) {
 $router->get('/login','ExampleController@login');
 
 $router->get('/user','ExampleController@userInfo');
+
+$router->get('/test', function () {
+    return 'test';
+});

@@ -28,4 +28,9 @@ class ExampleController extends Controller
     }
 
     //
+
+    public function test()
+    {
+        return 'test';
+    }
 }
