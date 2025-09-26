@@ -33,4 +33,9 @@ class ExampleController extends Controller
     {
         return 'test';
     }
+
+    public function example()
+    {
+        return 'example';
+    }
 }

@@ -22,3 +22,7 @@ $router->get('/user','ExampleController@userInfo');
 $router->get('/test', function () {
     return 'test';
 });
+
+$router->get('/example', function () {
+    return 'example';
+});
