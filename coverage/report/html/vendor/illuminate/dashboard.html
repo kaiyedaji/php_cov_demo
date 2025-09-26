@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for D:\code\lumen-7.0.0\vendor\illuminate</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=9.2.32" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=9.2.32" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=9.2.32" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">D:\code\lumen-7.0.0</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">vendor</a></li>
+         <li class="breadcrumb-item"><a href="index.html">illuminate</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="support/Arr.php.html#9">Illuminate\Support\Arr</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="config/Repository.php.html#9">Illuminate\Config\Repository</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Env.php.html#11">Illuminate\Support\Env</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithFlashData.php.html#5">Illuminate\Http\Concerns\InteractsWithFlashData</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/ResponseTrait.php.html#9">Illuminate\Http\ResponseTrait</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Traits/Macroable.php.html#10">Illuminate\Support\Traits\Macroable</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithContentTypes.php.html#7">Illuminate\Http\Concerns\InteractsWithContentTypes</a></td><td class="text-right">2%</td></tr>
+       <tr><td><a href="support/Str.php.html#12">Illuminate\Support\Str</a></td><td class="text-right">2%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#11">Illuminate\Http\Concerns\InteractsWithInput</a></td><td class="text-right">3%</td></tr>
+       <tr><td><a href="container/Util.php.html#8">Illuminate\Container\Util</a></td><td class="text-right">7%</td></tr>
+       <tr><td><a href="http/Request.php.html#20">Illuminate\Http\Request</a></td><td class="text-right">15%</td></tr>
+       <tr><td><a href="container/Container.php.html#15">Illuminate\Container\Container</a></td><td class="text-right">29%</td></tr>
+       <tr><td><a href="container/BoundMethod.php.html#11">Illuminate\Container\BoundMethod</a></td><td class="text-right">43%</td></tr>
+       <tr><td><a href="http/Response.php.html#14">Illuminate\Http\Response</a></td><td class="text-right">63%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="support/Arr.php.html#9">Illuminate\Support\Arr</a></td><td class="text-right">10506</td></tr>
+       <tr><td><a href="container/Container.php.html#15">Illuminate\Container\Container</a></td><td class="text-right">7919</td></tr>
+       <tr><td><a href="support/Str.php.html#12">Illuminate\Support\Str</a></td><td class="text-right">7363</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#11">Illuminate\Http\Concerns\InteractsWithInput</a></td><td class="text-right">4117</td></tr>
+       <tr><td><a href="http/Request.php.html#20">Illuminate\Http\Request</a></td><td class="text-right">3530</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithContentTypes.php.html#7">Illuminate\Http\Concerns\InteractsWithContentTypes</a></td><td class="text-right">1105</td></tr>
+       <tr><td><a href="config/Repository.php.html#9">Illuminate\Config\Repository</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="support/Env.php.html#11">Illuminate\Support\Env</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="http/ResponseTrait.php.html#9">Illuminate\Http\ResponseTrait</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="container/BoundMethod.php.html#11">Illuminate\Container\BoundMethod</a></td><td class="text-right">202</td></tr>
+       <tr><td><a href="support/Traits/Macroable.php.html#10">Illuminate\Support\Traits\Macroable</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="container/Util.php.html#8">Illuminate\Container\Util</a></td><td class="text-right">127</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithFlashData.php.html#5">Illuminate\Http\Concerns\InteractsWithFlashData</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="http/Response.php.html#14">Illuminate\Http\Response</a></td><td class="text-right">18</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="config/Repository.php.html#24"><abbr title="Illuminate\Config\Repository::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#419"><abbr title="Illuminate\Support\Str::parseCallback">parseCallback</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#228"><abbr title="Illuminate\Support\Str::finish">finish</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#242"><abbr title="Illuminate\Support\Str::is">is</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#279"><abbr title="Illuminate\Support\Str::isAscii">isAscii</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#290"><abbr title="Illuminate\Support\Str::isUuid">isUuid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#305"><abbr title="Illuminate\Support\Str::kebab">kebab</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#317"><abbr title="Illuminate\Support\Str::length">length</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#334"><abbr title="Illuminate\Support\Str::limit">limit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#349"><abbr title="Illuminate\Support\Str::lower">lower</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#362"><abbr title="Illuminate\Support\Str::words">words</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#381"><abbr title="Illuminate\Support\Str::padBoth">padBoth</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#394"><abbr title="Illuminate\Support\Str::padLeft">padLeft</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#407"><abbr title="Illuminate\Support\Str::padRight">padRight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#431"><abbr title="Illuminate\Support\Str::plural">plural</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#192"><abbr title="Illuminate\Support\Str::containsAll">containsAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#443"><abbr title="Illuminate\Support\Str::pluralStudly">pluralStudly</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#458"><abbr title="Illuminate\Support\Str::random">random</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#481"><abbr title="Illuminate\Support\Str::replaceArray">replaceArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#502"><abbr title="Illuminate\Support\Str::replaceFirst">replaceFirst</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#525"><abbr title="Illuminate\Support\Str::replaceLast">replaceLast</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#547"><abbr title="Illuminate\Support\Str::start">start</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#560"><abbr title="Illuminate\Support\Str::upper">upper</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#571"><abbr title="Illuminate\Support\Str::title">title</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#582"><abbr title="Illuminate\Support\Str::singular">singular</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#595"><abbr title="Illuminate\Support\Str::slug">slug</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#623"><abbr title="Illuminate\Support\Str::snake">snake</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#647"><abbr title="Illuminate\Support\Str::startsWith">startsWith</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#664"><abbr title="Illuminate\Support\Str::studly">studly</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#210"><abbr title="Illuminate\Support\Str::endsWith">endsWith</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#158"><abbr title="Illuminate\Support\Str::camel">camel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#699"><abbr title="Illuminate\Support\Str::substrCount">substrCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#599"><abbr title="Illuminate\Support\Arr::sort">sort</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#237"><abbr title="Illuminate\Support\Arr::forget">forget</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#282"><abbr title="Illuminate\Support\Arr::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#318"><abbr title="Illuminate\Support\Arr::has">has</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#352"><abbr title="Illuminate\Support\Arr::hasAny">hasAny</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#385"><abbr title="Illuminate\Support\Arr::isAssoc">isAssoc</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#399"><abbr title="Illuminate\Support\Arr::only">only</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#412"><abbr title="Illuminate\Support\Arr::pluck">pluck</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#447"><abbr title="Illuminate\Support\Arr::explodePluckParameters">explodePluckParameters</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#464"><abbr title="Illuminate\Support\Arr::prepend">prepend</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#483"><abbr title="Illuminate\Support\Arr::pull">pull</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#501"><abbr title="Illuminate\Support\Arr::random">random</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#542"><abbr title="Illuminate\Support\Arr::set">set</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#579"><abbr title="Illuminate\Support\Arr::shuffle">shuffle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#610"><abbr title="Illuminate\Support\Arr::sortRecursive">sortRecursive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#143"><abbr title="Illuminate\Support\Str::between">between</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#633"><abbr title="Illuminate\Support\Arr::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#645"><abbr title="Illuminate\Support\Arr::where">where</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#656"><abbr title="Illuminate\Support\Arr::wrap">wrap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Env.php.html#32"><abbr title="Illuminate\Support\Env::enablePutenv">enablePutenv</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Env.php.html#43"><abbr title="Illuminate\Support\Env::disablePutenv">disablePutenv</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Env.php.html#54"><abbr title="Illuminate\Support\Env::getRepository">getRepository</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Env.php.html#79"><abbr title="Illuminate\Support\Env::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#50"><abbr title="Illuminate\Support\Str::of">of</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#62"><abbr title="Illuminate\Support\Str::after">after</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#74"><abbr title="Illuminate\Support\Str::afterLast">afterLast</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#96"><abbr title="Illuminate\Support\Str::ascii">ascii</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#108"><abbr title="Illuminate\Support\Str::before">before</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#120"><abbr title="Illuminate\Support\Str::beforeLast">beforeLast</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#685"><abbr title="Illuminate\Support\Str::substr">substr</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#714"><abbr title="Illuminate\Support\Str::ucfirst">ucfirst</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#191"><abbr title="Illuminate\Support\Arr::last">last</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#444"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::file">file</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#264"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::input">input</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#280"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::boolean">boolean</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#291"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::only">only</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#316"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::except">except</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#334"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#346"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::post">post</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#357"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::hasCookie">hasCookie</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#369"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::cookie">cookie</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#379"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::allFiles">allFiles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#392"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::convertUploadedFiles">convertUploadedFiles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#411"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::hasFile">hasFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#432"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::isValidFile">isValidFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/ResponseTrait.php.html#30"><abbr title="Illuminate\Http\ResponseTrait::status">status</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#229"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::keys">keys</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/ResponseTrait.php.html#40"><abbr title="Illuminate\Http\ResponseTrait::content">content</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/ResponseTrait.php.html#50"><abbr title="Illuminate\Http\ResponseTrait::getOriginalContent">getOriginalContent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/ResponseTrait.php.html#65"><abbr title="Illuminate\Http\ResponseTrait::header">header</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/ResponseTrait.php.html#78"><abbr title="Illuminate\Http\ResponseTrait::withHeaders">withHeaders</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/ResponseTrait.php.html#97"><abbr title="Illuminate\Http\ResponseTrait::cookie">cookie</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/ResponseTrait.php.html#108"><abbr title="Illuminate\Http\ResponseTrait::withCookie">withCookie</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/ResponseTrait.php.html#124"><abbr title="Illuminate\Http\ResponseTrait::getCallback">getCallback</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/ResponseTrait.php.html#135"><abbr title="Illuminate\Http\ResponseTrait::withException">withException</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/ResponseTrait.php.html#149"><abbr title="Illuminate\Http\ResponseTrait::throwResponse">throwResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Traits/Macroable.php.html#26"><abbr title="Illuminate\Support\Traits\Macroable::macro">macro</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Traits/Macroable.php.html#40"><abbr title="Illuminate\Support\Traits\Macroable::mixin">mixin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Traits/Macroable.php.html#60"><abbr title="Illuminate\Support\Traits\Macroable::hasMacro">hasMacro</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Traits/Macroable.php.html#74"><abbr title="Illuminate\Support\Traits\Macroable::__callStatic">__callStatic</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#240"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::all">all</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#217"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::isEmptyString">isEmptyString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#724"><abbr title="Illuminate\Support\Str::uuid">uuid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithFlashData.php.html#24"><abbr title="Illuminate\Http\Concerns\InteractsWithFlashData::flash">flash</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#736"><abbr title="Illuminate\Support\Str::orderedUuid">orderedUuid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#762"><abbr title="Illuminate\Support\Str::createUuidsUsing">createUuidsUsing</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Str.php.html#772"><abbr title="Illuminate\Support\Str::createUuidsNormally">createUuidsNormally</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithContentTypes.php.html#16"><abbr title="Illuminate\Http\Concerns\InteractsWithContentTypes::matchesType">matchesType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithContentTypes.php.html#42"><abbr title="Illuminate\Http\Concerns\InteractsWithContentTypes::expectsJson">expectsJson</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithContentTypes.php.html#52"><abbr title="Illuminate\Http\Concerns\InteractsWithContentTypes::wantsJson">wantsJson</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithContentTypes.php.html#65"><abbr title="Illuminate\Http\Concerns\InteractsWithContentTypes::accepts">accepts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithContentTypes.php.html#96"><abbr title="Illuminate\Http\Concerns\InteractsWithContentTypes::prefers">prefers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithContentTypes.php.html#126"><abbr title="Illuminate\Http\Concerns\InteractsWithContentTypes::acceptsAnyContentType">acceptsAnyContentType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithContentTypes.php.html#140"><abbr title="Illuminate\Http\Concerns\InteractsWithContentTypes::acceptsJson">acceptsJson</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithContentTypes.php.html#150"><abbr title="Illuminate\Http\Concerns\InteractsWithContentTypes::acceptsHtml">acceptsHtml</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithContentTypes.php.html#161"><abbr title="Illuminate\Http\Concerns\InteractsWithContentTypes::format">format</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithFlashData.php.html#14"><abbr title="Illuminate\Http\Concerns\InteractsWithFlashData::old">old</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithFlashData.php.html#35"><abbr title="Illuminate\Http\Concerns\InteractsWithFlashData::flashOnly">flashOnly</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#204"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::missing">missing</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithFlashData.php.html#48"><abbr title="Illuminate\Http\Concerns\InteractsWithFlashData::flashExcept">flashExcept</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithFlashData.php.html#60"><abbr title="Illuminate\Http\Concerns\InteractsWithFlashData::flush">flush</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#20"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::server">server</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#31"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::hasHeader">hasHeader</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#53"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::bearerToken">bearerToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#68"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::exists">exists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#79"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::has">has</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#100"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::hasAny">hasAny</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#116"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::whenHas">whenHas</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#131"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::filled">filled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#150"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::isNotFilled">isNotFilled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#169"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::anyFilled">anyFilled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#189"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::whenFilled">whenFilled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#207"><abbr title="Illuminate\Support\Arr::flatten">flatten</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#162"><abbr title="Illuminate\Support\Arr::first">first</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="config/Repository.php.html#35"><abbr title="Illuminate\Config\Repository::has">has</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#984"><abbr title="Illuminate\Container\Container::resolveVariadicClass">resolveVariadicClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#537"><abbr title="Illuminate\Container\Container::refresh">refresh</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#577"><abbr title="Illuminate\Container\Container::wrap">wrap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#605"><abbr title="Illuminate\Container\Container::factory">factory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#621"><abbr title="Illuminate\Container\Container::makeWith">makeWith</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#643"><abbr title="Illuminate\Container\Container::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#860"><abbr title="Illuminate\Container\Container::resolveDependencies">resolveDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#897"><abbr title="Illuminate\Container\Container::hasParameterOverride">hasParameterOverride</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#910"><abbr title="Illuminate\Container\Container::getParameterOverride">getParameterOverride</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#920"><abbr title="Illuminate\Container\Container::getLastParameterOverride">getLastParameterOverride</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#933"><abbr title="Illuminate\Container\Container::resolvePrimitive">resolvePrimitive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#954"><abbr title="Illuminate\Container\Container::resolveClass">resolveClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#1007"><abbr title="Illuminate\Container\Container::notInstantiable">notInstantiable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#502"><abbr title="Illuminate\Container\Container::alias">alias</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#1028"><abbr title="Illuminate\Container\Container::unresolvablePrimitive">unresolvablePrimitive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#1042"><abbr title="Illuminate\Container\Container::resolving">resolving</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#1062"><abbr title="Illuminate\Container\Container::afterResolving">afterResolving</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#1149"><abbr title="Illuminate\Container\Container::getBindings">getBindings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#1188"><abbr title="Illuminate\Container\Container::forgetExtenders">forgetExtenders</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#1199"><abbr title="Illuminate\Container\Container::dropStaleInstances">dropStaleInstances</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#1210"><abbr title="Illuminate\Container\Container::forgetInstance">forgetInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#145"><abbr title="Illuminate\Support\Arr::exists">exists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#1230"><abbr title="Illuminate\Container\Container::flush">flush</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#1259"><abbr title="Illuminate\Container\Container::setInstance">setInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#1270"><abbr title="Illuminate\Container\Container::offsetExists">offsetExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#520"><abbr title="Illuminate\Container\Container::rebinding">rebinding</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#480"><abbr title="Illuminate\Container\Container::tagged">tagged</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#1306"><abbr title="Illuminate\Container\Container::offsetUnset">offsetUnset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/BoundMethod.php.html#160"><abbr title="Illuminate\Container\BoundMethod::addDependencyForCallParameter">addDependencyForCallParameter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="config/Repository.php.html#47"><abbr title="Illuminate\Config\Repository::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="config/Repository.php.html#62"><abbr title="Illuminate\Config\Repository::getMany">getMany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="config/Repository.php.html#84"><abbr title="Illuminate\Config\Repository::set">set</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="config/Repository.php.html#100"><abbr title="Illuminate\Config\Repository::prepend">prepend</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="config/Repository.php.html#116"><abbr title="Illuminate\Config\Repository::push">push</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="config/Repository.php.html#130"><abbr title="Illuminate\Config\Repository::all">all</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="config/Repository.php.html#141"><abbr title="Illuminate\Config\Repository::offsetExists">offsetExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="config/Repository.php.html#152"><abbr title="Illuminate\Config\Repository::offsetGet">offsetGet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="config/Repository.php.html#164"><abbr title="Illuminate\Config\Repository::offsetSet">offsetSet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="config/Repository.php.html#175"><abbr title="Illuminate\Config\Repository::offsetUnset">offsetUnset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/BoundMethod.php.html#51"><abbr title="Illuminate\Container\BoundMethod::callClass">callClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#142"><abbr title="Illuminate\Container\Container::when">when</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#459"><abbr title="Illuminate\Container\Container::tag">tag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#169"><abbr title="Illuminate\Container\Container::has">has</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#180"><abbr title="Illuminate\Container\Container::resolved">resolved</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#222"><abbr title="Illuminate\Container\Container::bind">bind</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#261"><abbr title="Illuminate\Container\Container::getClosure">getClosure</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#292"><abbr title="Illuminate\Container\Container::bindMethod">bindMethod</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#303"><abbr title="Illuminate\Container\Container::parseBindMethod">parseBindMethod</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#319"><abbr title="Illuminate\Container\Container::callMethodBinding">callMethodBinding</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#332"><abbr title="Illuminate\Container\Container::addContextualBinding">addContextualBinding</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#345"><abbr title="Illuminate\Container\Container::bindIf">bindIf</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#359"><abbr title="Illuminate\Container\Container::singleton">singleton</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#371"><abbr title="Illuminate\Container\Container::singletonIf">singletonIf</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#387"><abbr title="Illuminate\Container\Container::extend">extend</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#1293"><abbr title="Illuminate\Container\Container::offsetSet">offsetSet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#1220"><abbr title="Illuminate\Container\Container::forgetInstances">forgetInstances</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#1317"><abbr title="Illuminate\Container\Container::__get">__get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#626"><abbr title="Illuminate\Http\Request::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#351"><abbr title="Illuminate\Http\Request::json">json</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Container.php.html#1329"><abbr title="Illuminate\Container\Container::__set">__set</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#385"><abbr title="Illuminate\Http\Request::createFrom">createFrom</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#480"><abbr title="Illuminate\Http\Request::session">session</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#494"><abbr title="Illuminate\Http\Request::getSession">getSession</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#505"><abbr title="Illuminate\Http\Request::setLaravelSession">setLaravelSession</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#516"><abbr title="Illuminate\Http\Request::user">user</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#528"><abbr title="Illuminate\Http\Request::route">route</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#546"><abbr title="Illuminate\Http\Request::fingerprint">fingerprint</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#564"><abbr title="Illuminate\Http\Request::setJson">setJson</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#576"><abbr title="Illuminate\Http\Request::getUserResolver">getUserResolver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#601"><abbr title="Illuminate\Http\Request::getRouteResolver">getRouteResolver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#637"><abbr title="Illuminate\Http\Request::offsetExists">offsetExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#310"><abbr title="Illuminate\Http\Request::merge">merge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#651"><abbr title="Illuminate\Http\Request::offsetGet">offsetGet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#663"><abbr title="Illuminate\Http\Request::offsetSet">offsetSet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#674"><abbr title="Illuminate\Http\Request::offsetUnset">offsetUnset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#685"><abbr title="Illuminate\Http\Request::__isset">__isset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#696"><abbr title="Illuminate\Http\Request::__get">__get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Response.php.html#91"><abbr title="Illuminate\Http\Response::morphToJson">morphToJson</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#19"><abbr title="Illuminate\Support\Arr::accessible">accessible</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#32"><abbr title="Illuminate\Support\Arr::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#47"><abbr title="Illuminate\Support\Arr::collapse">collapse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#70"><abbr title="Illuminate\Support\Arr::crossJoin">crossJoin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#97"><abbr title="Illuminate\Support\Arr::divide">divide</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#109"><abbr title="Illuminate\Support\Arr::dot">dot</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Arr.php.html#131"><abbr title="Illuminate\Support\Arr::except">except</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#323"><abbr title="Illuminate\Http\Request::replace">replace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="support/Traits/Macroable.php.html#100"><abbr title="Illuminate\Support\Traits\Macroable::__call">__call</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#299"><abbr title="Illuminate\Http\Request::userAgent">userAgent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#209"><abbr title="Illuminate\Http\Request::routeIs">routeIs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Util.php.html#18"><abbr title="Illuminate\Container\Util::arrayWrap">arrayWrap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="container/Util.php.html#48"><abbr title="Illuminate\Container\Util::getParameterClassName">getParameterClassName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#72"><abbr title="Illuminate\Http\Request::instance">instance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#82"><abbr title="Illuminate\Http\Request::method">method</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#92"><abbr title="Illuminate\Http\Request::root">root</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#102"><abbr title="Illuminate\Http\Request::url">url</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#112"><abbr title="Illuminate\Http\Request::fullUrl">fullUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#127"><abbr title="Illuminate\Http\Request::fullUrlWithQuery">fullUrlWithQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#141"><abbr title="Illuminate\Http\Request::path">path</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#165"><abbr title="Illuminate\Http\Request::segment">segment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#175"><abbr title="Illuminate\Http\Request::segments">segments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#190"><abbr title="Illuminate\Http\Request::is">is</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#153"><abbr title="Illuminate\Http\Request::decodedPath">decodedPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#220"><abbr title="Illuminate\Http\Request::fullUrlIs">fullUrlIs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#248"><abbr title="Illuminate\Http\Request::pjax">pjax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#258"><abbr title="Illuminate\Http\Request::prefetch">prefetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#289"><abbr title="Illuminate\Http\Request::ips">ips</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#269"><abbr title="Illuminate\Http\Request::secure">secure</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#279"><abbr title="Illuminate\Http\Request::ip">ip</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#238"><abbr title="Illuminate\Http\Request::ajax">ajax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="http/Request.php.html#454"><abbr title="Illuminate\Http\Request::filterFiles">filterFiles</abbr></a></td><td class="text-right">25%</td></tr>
+       <tr><td><a href="container/Container.php.html#437"><abbr title="Illuminate\Container\Container::removeAbstractAlias">removeAbstractAlias</abbr></a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="container/Container.php.html#799"><abbr title="Illuminate\Container\Container::build">build</abbr></a></td><td class="text-right">42%</td></tr>
+       <tr><td><a href="container/Container.php.html#748"><abbr title="Illuminate\Container\Container::getContextualConcrete">getContextualConcrete</abbr></a></td><td class="text-right">42%</td></tr>
+       <tr><td><a href="container/Container.php.html#1137"><abbr title="Illuminate\Container\Container::fireCallbackArray">fireCallbackArray</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="container/Container.php.html#1117"><abbr title="Illuminate\Container\Container::getCallbacksForType">getCallbacksForType</abbr></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="http/Response.php.html#45"><abbr title="Illuminate\Http\Response::setContent">setContent</abbr></a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="container/Container.php.html#1244"><abbr title="Illuminate\Container\Container::getInstance">getInstance</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="container/Container.php.html#730"><abbr title="Illuminate\Container\Container::getConcrete">getConcrete</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="http/Request.php.html#369"><abbr title="Illuminate\Http\Request::getInputSource">getInputSource</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#457"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::retrieveItem">retrieveItem</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="container/Container.php.html#550"><abbr title="Illuminate\Container\Container::rebound">rebound</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="container/BoundMethod.php.html#138"><abbr title="Illuminate\Container\BoundMethod::getCallReflector">getCallReflector</abbr></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="container/BoundMethod.php.html#25"><abbr title="Illuminate\Container\BoundMethod::call">call</abbr></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="container/BoundMethod.php.html#119"><abbr title="Illuminate\Container\BoundMethod::getMethodDependencies">getMethodDependencies</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="container/BoundMethod.php.html#78"><abbr title="Illuminate\Container\BoundMethod::callBoundMethod">callBoundMethod</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="container/Container.php.html#666"><abbr title="Illuminate\Container\Container::resolve">resolve</abbr></a></td><td class="text-right">85%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="support/Env.php.html#79"><abbr title="Illuminate\Support\Env::get">get</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="support/Arr.php.html#282"><abbr title="Illuminate\Support\Arr::get">get</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="support/Arr.php.html#318"><abbr title="Illuminate\Support\Arr::has">has</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithContentTypes.php.html#65"><abbr title="Illuminate\Http\Concerns\InteractsWithContentTypes::accepts">accepts</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="support/Arr.php.html#237"><abbr title="Illuminate\Support\Arr::forget">forget</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="container/BoundMethod.php.html#160"><abbr title="Illuminate\Container\BoundMethod::addDependencyForCallParameter">addDependencyForCallParameter</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithContentTypes.php.html#96"><abbr title="Illuminate\Http\Concerns\InteractsWithContentTypes::prefers">prefers</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="container/Util.php.html#48"><abbr title="Illuminate\Container\Util::getParameterClassName">getParameterClassName</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="support/Arr.php.html#162"><abbr title="Illuminate\Support\Arr::first">first</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="support/Arr.php.html#207"><abbr title="Illuminate\Support\Arr::flatten">flatten</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="support/Arr.php.html#352"><abbr title="Illuminate\Support\Arr::hasAny">hasAny</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="support/Arr.php.html#501"><abbr title="Illuminate\Support\Arr::random">random</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="support/Arr.php.html#542"><abbr title="Illuminate\Support\Arr::set">set</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="container/Container.php.html#954"><abbr title="Illuminate\Container\Container::resolveClass">resolveClass</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="support/Str.php.html#242"><abbr title="Illuminate\Support\Str::is">is</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="container/Container.php.html#459"><abbr title="Illuminate\Container\Container::tag">tag</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="container/Container.php.html#860"><abbr title="Illuminate\Container\Container::resolveDependencies">resolveDependencies</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="support/Arr.php.html#412"><abbr title="Illuminate\Support\Arr::pluck">pluck</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="container/Container.php.html#222"><abbr title="Illuminate\Container\Container::bind">bind</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#392"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::convertUploadedFiles">convertUploadedFiles</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="support/Arr.php.html#610"><abbr title="Illuminate\Support\Arr::sortRecursive">sortRecursive</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="container/Container.php.html#933"><abbr title="Illuminate\Container\Container::resolvePrimitive">resolvePrimitive</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="support/Arr.php.html#447"><abbr title="Illuminate\Support\Arr::explodePluckParameters">explodePluckParameters</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="support/Str.php.html#210"><abbr title="Illuminate\Support\Str::endsWith">endsWith</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="container/Container.php.html#1062"><abbr title="Illuminate\Container\Container::afterResolving">afterResolving</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="container/Container.php.html#1042"><abbr title="Illuminate\Container\Container::resolving">resolving</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="support/Arr.php.html#47"><abbr title="Illuminate\Support\Arr::collapse">collapse</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="support/Arr.php.html#70"><abbr title="Illuminate\Support\Arr::crossJoin">crossJoin</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="http/Request.php.html#385"><abbr title="Illuminate\Http\Request::createFrom">createFrom</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="support/Arr.php.html#109"><abbr title="Illuminate\Support\Arr::dot">dot</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="support/Str.php.html#647"><abbr title="Illuminate\Support\Str::startsWith">startsWith</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#169"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::anyFilled">anyFilled</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#131"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::filled">filled</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#240"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::all">all</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#291"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::only">only</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#411"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::hasFile">hasFile</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#79"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::has">has</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithContentTypes.php.html#126"><abbr title="Illuminate\Http\Concerns\InteractsWithContentTypes::acceptsAnyContentType">acceptsAnyContentType</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithContentTypes.php.html#42"><abbr title="Illuminate\Http\Concerns\InteractsWithContentTypes::expectsJson">expectsJson</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="support/Traits/Macroable.php.html#40"><abbr title="Illuminate\Support\Traits\Macroable::mixin">mixin</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#150"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::isNotFilled">isNotFilled</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="http/Request.php.html#454"><abbr title="Illuminate\Http\Request::filterFiles">filterFiles</abbr></a></td><td class="text-right">15</td></tr>
+       <tr><td><a href="container/Container.php.html#799"><abbr title="Illuminate\Container\Container::build">build</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="container/Container.php.html#437"><abbr title="Illuminate\Container\Container::removeAbstractAlias">removeAbstractAlias</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="http/ResponseTrait.php.html#108"><abbr title="Illuminate\Http\ResponseTrait::withCookie">withCookie</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="http/ResponseTrait.php.html#78"><abbr title="Illuminate\Http\ResponseTrait::withHeaders">withHeaders</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="config/Repository.php.html#62"><abbr title="Illuminate\Config\Repository::getMany">getMany</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="support/Arr.php.html#191"><abbr title="Illuminate\Support\Arr::last">last</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#217"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::isEmptyString">isEmptyString</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#189"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::whenFilled">whenFilled</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="support/Traits/Macroable.php.html#74"><abbr title="Illuminate\Support\Traits\Macroable::__callStatic">__callStatic</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="support/Env.php.html#54"><abbr title="Illuminate\Support\Env::getRepository">getRepository</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="support/Arr.php.html#656"><abbr title="Illuminate\Support\Arr::wrap">wrap</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="support/Str.php.html#74"><abbr title="Illuminate\Support\Str::afterLast">afterLast</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="support/Str.php.html#120"><abbr title="Illuminate\Support\Str::beforeLast">beforeLast</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="support/Str.php.html#143"><abbr title="Illuminate\Support\Str::between">between</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="support/Str.php.html#192"><abbr title="Illuminate\Support\Str::containsAll">containsAll</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#116"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::whenHas">whenHas</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithContentTypes.php.html#161"><abbr title="Illuminate\Http\Concerns\InteractsWithContentTypes::format">format</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="support/Str.php.html#362"><abbr title="Illuminate\Support\Str::words">words</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="support/Str.php.html#502"><abbr title="Illuminate\Support\Str::replaceFirst">replaceFirst</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="support/Str.php.html#525"><abbr title="Illuminate\Support\Str::replaceLast">replaceLast</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="support/Str.php.html#595"><abbr title="Illuminate\Support\Str::slug">slug</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithContentTypes.php.html#16"><abbr title="Illuminate\Http\Concerns\InteractsWithContentTypes::matchesType">matchesType</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="support/Str.php.html#623"><abbr title="Illuminate\Support\Str::snake">snake</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="support/Traits/Macroable.php.html#100"><abbr title="Illuminate\Support\Traits\Macroable::__call">__call</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="container/Container.php.html#480"><abbr title="Illuminate\Container\Container::tagged">tagged</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="container/Container.php.html#643"><abbr title="Illuminate\Container\Container::get">get</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="container/Util.php.html#18"><abbr title="Illuminate\Container\Util::arrayWrap">arrayWrap</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="http/Request.php.html#112"><abbr title="Illuminate\Http\Request::fullUrl">fullUrl</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="container/Container.php.html#387"><abbr title="Illuminate\Container\Container::extend">extend</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="http/Request.php.html#127"><abbr title="Illuminate\Http\Request::fullUrlWithQuery">fullUrlWithQuery</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="http/Request.php.html#190"><abbr title="Illuminate\Http\Request::is">is</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="http/Request.php.html#220"><abbr title="Illuminate\Http\Request::fullUrlIs">fullUrlIs</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="container/Container.php.html#180"><abbr title="Illuminate\Container\Container::resolved">resolved</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="http/Request.php.html#351"><abbr title="Illuminate\Http\Request::json">json</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="http/Request.php.html#528"><abbr title="Illuminate\Http\Request::route">route</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="container/BoundMethod.php.html#51"><abbr title="Illuminate\Container\BoundMethod::callClass">callClass</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="http/Response.php.html#91"><abbr title="Illuminate\Http\Response::morphToJson">morphToJson</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="config/Repository.php.html#84"><abbr title="Illuminate\Config\Repository::set">set</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="container/Container.php.html#666"><abbr title="Illuminate\Container\Container::resolve">resolve</abbr></a></td><td class="text-right">10</td></tr>
+       <tr><td><a href="container/Container.php.html#748"><abbr title="Illuminate\Container\Container::getContextualConcrete">getContextualConcrete</abbr></a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="container/BoundMethod.php.html#138"><abbr title="Illuminate\Container\BoundMethod::getCallReflector">getCallReflector</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="container/BoundMethod.php.html#25"><abbr title="Illuminate\Container\BoundMethod::call">call</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="container/Container.php.html#502"><abbr title="Illuminate\Container\Container::alias">alias</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="container/Container.php.html#520"><abbr title="Illuminate\Container\Container::rebinding">rebinding</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithContentTypes.php.html#52"><abbr title="Illuminate\Http\Concerns\InteractsWithContentTypes::wantsJson">wantsJson</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithFlashData.php.html#14"><abbr title="Illuminate\Http\Concerns\InteractsWithFlashData::old">old</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithFlashData.php.html#35"><abbr title="Illuminate\Http\Concerns\InteractsWithFlashData::flashOnly">flashOnly</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithFlashData.php.html#48"><abbr title="Illuminate\Http\Concerns\InteractsWithFlashData::flashExcept">flashExcept</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#53"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::bearerToken">bearerToken</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="support/Arr.php.html#145"><abbr title="Illuminate\Support\Arr::exists">exists</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="container/Container.php.html#345"><abbr title="Illuminate\Container\Container::bindIf">bindIf</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#100"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::hasAny">hasAny</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="container/Container.php.html#371"><abbr title="Illuminate\Container\Container::singletonIf">singletonIf</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="support/Str.php.html#724"><abbr title="Illuminate\Support\Str::uuid">uuid</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="container/Container.php.html#303"><abbr title="Illuminate\Container\Container::parseBindMethod">parseBindMethod</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#204"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::missing">missing</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="container/Container.php.html#261"><abbr title="Illuminate\Container\Container::getClosure">getClosure</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="container/Container.php.html#142"><abbr title="Illuminate\Container\Container::when">when</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#316"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::except">except</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#432"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::isValidFile">isValidFile</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="http/ResponseTrait.php.html#50"><abbr title="Illuminate\Http\ResponseTrait::getOriginalContent">getOriginalContent</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="support/Str.php.html#736"><abbr title="Illuminate\Support\Str::orderedUuid">orderedUuid</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="container/Container.php.html#920"><abbr title="Illuminate\Container\Container::getLastParameterOverride">getLastParameterOverride</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="support/Str.php.html#699"><abbr title="Illuminate\Support\Str::substrCount">substrCount</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="container/Container.php.html#1293"><abbr title="Illuminate\Container\Container::offsetSet">offsetSet</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="support/Arr.php.html#19"><abbr title="Illuminate\Support\Arr::accessible">accessible</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="http/Request.php.html#601"><abbr title="Illuminate\Http\Request::getRouteResolver">getRouteResolver</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="http/Request.php.html#576"><abbr title="Illuminate\Http\Request::getUserResolver">getUserResolver</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="http/Request.php.html#546"><abbr title="Illuminate\Http\Request::fingerprint">fingerprint</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="support/Arr.php.html#464"><abbr title="Illuminate\Support\Arr::prepend">prepend</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="http/Request.php.html#480"><abbr title="Illuminate\Http\Request::session">session</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="support/Arr.php.html#579"><abbr title="Illuminate\Support\Arr::shuffle">shuffle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="http/Request.php.html#258"><abbr title="Illuminate\Http\Request::prefetch">prefetch</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="http/Request.php.html#209"><abbr title="Illuminate\Http\Request::routeIs">routeIs</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="support/Str.php.html#62"><abbr title="Illuminate\Support\Str::after">after</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="support/Str.php.html#108"><abbr title="Illuminate\Support\Str::before">before</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="support/Str.php.html#664"><abbr title="Illuminate\Support\Str::studly">studly</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="support/Str.php.html#158"><abbr title="Illuminate\Support\Str::camel">camel</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="http/Request.php.html#141"><abbr title="Illuminate\Http\Request::path">path</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="support/Str.php.html#290"><abbr title="Illuminate\Support\Str::isUuid">isUuid</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="support/Str.php.html#317"><abbr title="Illuminate\Support\Str::length">length</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="support/Arr.php.html#32"><abbr title="Illuminate\Support\Arr::add">add</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="container/Container.php.html#984"><abbr title="Illuminate\Container\Container::resolveVariadicClass">resolveVariadicClass</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="container/Container.php.html#1007"><abbr title="Illuminate\Container\Container::notInstantiable">notInstantiable</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="config/Repository.php.html#47"><abbr title="Illuminate\Config\Repository::get">get</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="support/Str.php.html#481"><abbr title="Illuminate\Support\Str::replaceArray">replaceArray</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="support/Str.php.html#458"><abbr title="Illuminate\Support\Str::random">random</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="support/Str.php.html#419"><abbr title="Illuminate\Support\Str::parseCallback">parseCallback</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="support/Str.php.html#334"><abbr title="Illuminate\Support\Str::limit">limit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="container/Container.php.html#1117"><abbr title="Illuminate\Container\Container::getCallbacksForType">getCallbacksForType</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="http/Response.php.html#45"><abbr title="Illuminate\Http\Response::setContent">setContent</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="http/Request.php.html#369"><abbr title="Illuminate\Http\Request::getInputSource">getInputSource</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="container/BoundMethod.php.html#78"><abbr title="Illuminate\Container\BoundMethod::callBoundMethod">callBoundMethod</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="container/Container.php.html#1137"><abbr title="Illuminate\Container\Container::fireCallbackArray">fireCallbackArray</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="container/Container.php.html#550"><abbr title="Illuminate\Container\Container::rebound">rebound</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="http/Concerns/InteractsWithInput.php.html#457"><abbr title="Illuminate\Http\Concerns\InteractsWithInput::retrieveItem">retrieveItem</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="container/Container.php.html#730"><abbr title="Illuminate\Container\Container::getConcrete">getConcrete</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="container/Container.php.html#1244"><abbr title="Illuminate\Container\Container::getInstance">getInstance</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="container/BoundMethod.php.html#119"><abbr title="Illuminate\Container\BoundMethod::getMethodDependencies">getMethodDependencies</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.32</a> using <a href="https://secure.php.net/" target="_top">PHP 7.4.0</a> at Tue Sep 16 10:21:30 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=9.2.32" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=9.2.32" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=9.2.32" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([6,4,1,1,0,1,0,1,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([236,0,0,1,1,2,1,7,3,2,0,29], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,17,"<a href=\"config\/Repository.php.html#9\">Illuminate\\Config\\Repository<\/a>"],[43.75,31,"<a href=\"container\/BoundMethod.php.html#11\">Illuminate\\Container\\BoundMethod<\/a>"],[29.527559055118108,149,"<a href=\"container\/Container.php.html#15\">Illuminate\\Container\\Container<\/a>"],[7.142857142857142,12,"<a href=\"container\/Util.php.html#8\">Illuminate\\Container\\Util<\/a>"],[15.748031496062993,76,"<a href=\"http\/Request.php.html#20\">Illuminate\\Http\\Request<\/a>"],[63.63636363636363,12,"<a href=\"http\/Response.php.html#14\">Illuminate\\Http\\Response<\/a>"],[0,102,"<a href=\"support\/Arr.php.html#9\">Illuminate\\Support\\Arr<\/a>"],[0,15,"<a href=\"support\/Env.php.html#11\">Illuminate\\Support\\Env<\/a>"],[2.797202797202797,89,"<a href=\"support\/Str.php.html#12\">Illuminate\\Support\\Str<\/a>"],[2.5,34,"<a href=\"http\/Concerns\/InteractsWithContentTypes.php.html#7\">Illuminate\\Http\\Concerns\\InteractsWithContentTypes<\/a>"],[0,8,"<a href=\"http\/Concerns\/InteractsWithFlashData.php.html#5\">Illuminate\\Http\\Concerns\\InteractsWithFlashData<\/a>"],[3.3707865168539324,67,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#11\">Illuminate\\Http\\Concerns\\InteractsWithInput<\/a>"],[0,15,"<a href=\"http\/ResponseTrait.php.html#9\">Illuminate\\Http\\ResponseTrait<\/a>"],[0,12,"<a href=\"support\/Traits\/Macroable.php.html#10\">Illuminate\\Support\\Traits\\Macroable<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"config\/Repository.php.html#24\">Illuminate\\Config\\Repository::__construct<\/a>"],[0,1,"<a href=\"config\/Repository.php.html#35\">Illuminate\\Config\\Repository::has<\/a>"],[0,2,"<a href=\"config\/Repository.php.html#47\">Illuminate\\Config\\Repository::get<\/a>"],[0,3,"<a href=\"config\/Repository.php.html#62\">Illuminate\\Config\\Repository::getMany<\/a>"],[0,3,"<a href=\"config\/Repository.php.html#84\">Illuminate\\Config\\Repository::set<\/a>"],[0,1,"<a href=\"config\/Repository.php.html#100\">Illuminate\\Config\\Repository::prepend<\/a>"],[0,1,"<a href=\"config\/Repository.php.html#116\">Illuminate\\Config\\Repository::push<\/a>"],[0,1,"<a href=\"config\/Repository.php.html#130\">Illuminate\\Config\\Repository::all<\/a>"],[0,1,"<a href=\"config\/Repository.php.html#141\">Illuminate\\Config\\Repository::offsetExists<\/a>"],[0,1,"<a href=\"config\/Repository.php.html#152\">Illuminate\\Config\\Repository::offsetGet<\/a>"],[0,1,"<a href=\"config\/Repository.php.html#164\">Illuminate\\Config\\Repository::offsetSet<\/a>"],[0,1,"<a href=\"config\/Repository.php.html#175\">Illuminate\\Config\\Repository::offsetUnset<\/a>"],[71.42857142857143,6,"<a href=\"container\/BoundMethod.php.html#25\">Illuminate\\Container\\BoundMethod::call<\/a>"],[0,3,"<a href=\"container\/BoundMethod.php.html#51\">Illuminate\\Container\\BoundMethod::callClass<\/a>"],[83.33333333333334,3,"<a href=\"container\/BoundMethod.php.html#78\">Illuminate\\Container\\BoundMethod::callBoundMethod<\/a>"],[100,2,"<a href=\"container\/BoundMethod.php.html#102\">Illuminate\\Container\\BoundMethod::normalizeMethod<\/a>"],[75,2,"<a href=\"container\/BoundMethod.php.html#119\">Illuminate\\Container\\BoundMethod::getMethodDependencies<\/a>"],[71.42857142857143,6,"<a href=\"container\/BoundMethod.php.html#138\">Illuminate\\Container\\BoundMethod::getCallReflector<\/a>"],[0,7,"<a href=\"container\/BoundMethod.php.html#160\">Illuminate\\Container\\BoundMethod::addDependencyForCallParameter<\/a>"],[100,2,"<a href=\"container\/BoundMethod.php.html#190\">Illuminate\\Container\\BoundMethod::isCallableWithAtSign<\/a>"],[0,2,"<a href=\"container\/Container.php.html#142\">Illuminate\\Container\\Container::when<\/a>"],[100,3,"<a href=\"container\/Container.php.html#159\">Illuminate\\Container\\Container::bound<\/a>"],[0,1,"<a href=\"container\/Container.php.html#169\">Illuminate\\Container\\Container::has<\/a>"],[0,3,"<a href=\"container\/Container.php.html#180\">Illuminate\\Container\\Container::resolved<\/a>"],[100,3,"<a href=\"container\/Container.php.html#196\">Illuminate\\Container\\Container::isShared<\/a>"],[100,1,"<a href=\"container\/Container.php.html#209\">Illuminate\\Container\\Container::isAlias<\/a>"],[0,5,"<a href=\"container\/Container.php.html#222\">Illuminate\\Container\\Container::bind<\/a>"],[0,2,"<a href=\"container\/Container.php.html#261\">Illuminate\\Container\\Container::getClosure<\/a>"],[100,1,"<a href=\"container\/Container.php.html#280\">Illuminate\\Container\\Container::hasMethodBinding<\/a>"],[0,1,"<a href=\"container\/Container.php.html#292\">Illuminate\\Container\\Container::bindMethod<\/a>"],[0,2,"<a href=\"container\/Container.php.html#303\">Illuminate\\Container\\Container::parseBindMethod<\/a>"],[0,1,"<a href=\"container\/Container.php.html#319\">Illuminate\\Container\\Container::callMethodBinding<\/a>"],[0,1,"<a href=\"container\/Container.php.html#332\">Illuminate\\Container\\Container::addContextualBinding<\/a>"],[0,2,"<a href=\"container\/Container.php.html#345\">Illuminate\\Container\\Container::bindIf<\/a>"],[0,1,"<a href=\"container\/Container.php.html#359\">Illuminate\\Container\\Container::singleton<\/a>"],[0,2,"<a href=\"container\/Container.php.html#371\">Illuminate\\Container\\Container::singletonIf<\/a>"],[0,3,"<a href=\"container\/Container.php.html#387\">Illuminate\\Container\\Container::extend<\/a>"],[100,2,"<a href=\"container\/Container.php.html#411\">Illuminate\\Container\\Container::instance<\/a>"],[33.33333333333333,5,"<a href=\"container\/Container.php.html#437\">Illuminate\\Container\\Container::removeAbstractAlias<\/a>"],[0,5,"<a href=\"container\/Container.php.html#459\">Illuminate\\Container\\Container::tag<\/a>"],[0,3,"<a href=\"container\/Container.php.html#480\">Illuminate\\Container\\Container::tagged<\/a>"],[0,2,"<a href=\"container\/Container.php.html#502\">Illuminate\\Container\\Container::alias<\/a>"],[0,2,"<a href=\"container\/Container.php.html#520\">Illuminate\\Container\\Container::rebinding<\/a>"],[0,1,"<a href=\"container\/Container.php.html#537\">Illuminate\\Container\\Container::refresh<\/a>"],[66.66666666666666,2,"<a href=\"container\/Container.php.html#550\">Illuminate\\Container\\Container::rebound<\/a>"],[100,1,"<a href=\"container\/Container.php.html#565\">Illuminate\\Container\\Container::getReboundCallbacks<\/a>"],[0,1,"<a href=\"container\/Container.php.html#577\">Illuminate\\Container\\Container::wrap<\/a>"],[100,1,"<a href=\"container\/Container.php.html#594\">Illuminate\\Container\\Container::call<\/a>"],[0,1,"<a href=\"container\/Container.php.html#605\">Illuminate\\Container\\Container::factory<\/a>"],[0,1,"<a href=\"container\/Container.php.html#621\">Illuminate\\Container\\Container::makeWith<\/a>"],[100,1,"<a href=\"container\/Container.php.html#635\">Illuminate\\Container\\Container::make<\/a>"],[0,3,"<a href=\"container\/Container.php.html#643\">Illuminate\\Container\\Container::get<\/a>"],[85,10,"<a href=\"container\/Container.php.html#666\">Illuminate\\Container\\Container::resolve<\/a>"],[66.66666666666666,2,"<a href=\"container\/Container.php.html#730\">Illuminate\\Container\\Container::getConcrete<\/a>"],[42.857142857142854,5,"<a href=\"container\/Container.php.html#748\">Illuminate\\Container\\Container::getContextualConcrete<\/a>"],[100,1,"<a href=\"container\/Container.php.html#774\">Illuminate\\Container\\Container::findInContextualBindings<\/a>"],[100,2,"<a href=\"container\/Container.php.html#786\">Illuminate\\Container\\Container::isBuildable<\/a>"],[42.10526315789473,6,"<a href=\"container\/Container.php.html#799\">Illuminate\\Container\\Container::build<\/a>"],[0,5,"<a href=\"container\/Container.php.html#860\">Illuminate\\Container\\Container::resolveDependencies<\/a>"],[0,1,"<a href=\"container\/Container.php.html#897\">Illuminate\\Container\\Container::hasParameterOverride<\/a>"],[0,1,"<a href=\"container\/Container.php.html#910\">Illuminate\\Container\\Container::getParameterOverride<\/a>"],[0,2,"<a href=\"container\/Container.php.html#920\">Illuminate\\Container\\Container::getLastParameterOverride<\/a>"],[0,4,"<a href=\"container\/Container.php.html#933\">Illuminate\\Container\\Container::resolvePrimitive<\/a>"],[0,5,"<a href=\"container\/Container.php.html#954\">Illuminate\\Container\\Container::resolveClass<\/a>"],[0,2,"<a href=\"container\/Container.php.html#984\">Illuminate\\Container\\Container::resolveVariadicClass<\/a>"],[0,2,"<a href=\"container\/Container.php.html#1007\">Illuminate\\Container\\Container::notInstantiable<\/a>"],[0,1,"<a href=\"container\/Container.php.html#1028\">Illuminate\\Container\\Container::unresolvablePrimitive<\/a>"],[0,4,"<a href=\"container\/Container.php.html#1042\">Illuminate\\Container\\Container::resolving<\/a>"],[0,4,"<a href=\"container\/Container.php.html#1062\">Illuminate\\Container\\Container::afterResolving<\/a>"],[100,1,"<a href=\"container\/Container.php.html#1082\">Illuminate\\Container\\Container::fireResolvingCallbacks<\/a>"],[100,1,"<a href=\"container\/Container.php.html#1100\">Illuminate\\Container\\Container::fireAfterResolvingCallbacks<\/a>"],[60,4,"<a href=\"container\/Container.php.html#1117\">Illuminate\\Container\\Container::getCallbacksForType<\/a>"],[50,2,"<a href=\"container\/Container.php.html#1137\">Illuminate\\Container\\Container::fireCallbackArray<\/a>"],[0,1,"<a href=\"container\/Container.php.html#1149\">Illuminate\\Container\\Container::getBindings<\/a>"],[100,2,"<a href=\"container\/Container.php.html#1160\">Illuminate\\Container\\Container::getAlias<\/a>"],[100,1,"<a href=\"container\/Container.php.html#1175\">Illuminate\\Container\\Container::getExtenders<\/a>"],[0,1,"<a href=\"container\/Container.php.html#1188\">Illuminate\\Container\\Container::forgetExtenders<\/a>"],[0,1,"<a href=\"container\/Container.php.html#1199\">Illuminate\\Container\\Container::dropStaleInstances<\/a>"],[0,1,"<a href=\"container\/Container.php.html#1210\">Illuminate\\Container\\Container::forgetInstance<\/a>"],[0,1,"<a href=\"container\/Container.php.html#1220\">Illuminate\\Container\\Container::forgetInstances<\/a>"],[0,1,"<a href=\"container\/Container.php.html#1230\">Illuminate\\Container\\Container::flush<\/a>"],[66.66666666666666,2,"<a href=\"container\/Container.php.html#1244\">Illuminate\\Container\\Container::getInstance<\/a>"],[0,1,"<a href=\"container\/Container.php.html#1259\">Illuminate\\Container\\Container::setInstance<\/a>"],[0,1,"<a href=\"container\/Container.php.html#1270\">Illuminate\\Container\\Container::offsetExists<\/a>"],[100,1,"<a href=\"container\/Container.php.html#1281\">Illuminate\\Container\\Container::offsetGet<\/a>"],[0,2,"<a href=\"container\/Container.php.html#1293\">Illuminate\\Container\\Container::offsetSet<\/a>"],[0,1,"<a href=\"container\/Container.php.html#1306\">Illuminate\\Container\\Container::offsetUnset<\/a>"],[0,1,"<a href=\"container\/Container.php.html#1317\">Illuminate\\Container\\Container::__get<\/a>"],[0,1,"<a href=\"container\/Container.php.html#1329\">Illuminate\\Container\\Container::__set<\/a>"],[0,3,"<a href=\"container\/Util.php.html#18\">Illuminate\\Container\\Util::arrayWrap<\/a>"],[100,2,"<a href=\"container\/Util.php.html#35\">Illuminate\\Container\\Util::unwrapIfClosure<\/a>"],[0,7,"<a href=\"container\/Util.php.html#48\">Illuminate\\Container\\Util::getParameterClassName<\/a>"],[100,1,"<a href=\"http\/Request.php.html#60\">Illuminate\\Http\\Request::capture<\/a>"],[0,1,"<a href=\"http\/Request.php.html#72\">Illuminate\\Http\\Request::instance<\/a>"],[0,1,"<a href=\"http\/Request.php.html#82\">Illuminate\\Http\\Request::method<\/a>"],[0,1,"<a href=\"http\/Request.php.html#92\">Illuminate\\Http\\Request::root<\/a>"],[0,1,"<a href=\"http\/Request.php.html#102\">Illuminate\\Http\\Request::url<\/a>"],[0,3,"<a href=\"http\/Request.php.html#112\">Illuminate\\Http\\Request::fullUrl<\/a>"],[0,3,"<a href=\"http\/Request.php.html#127\">Illuminate\\Http\\Request::fullUrlWithQuery<\/a>"],[0,2,"<a href=\"http\/Request.php.html#141\">Illuminate\\Http\\Request::path<\/a>"],[0,1,"<a href=\"http\/Request.php.html#153\">Illuminate\\Http\\Request::decodedPath<\/a>"],[0,1,"<a href=\"http\/Request.php.html#165\">Illuminate\\Http\\Request::segment<\/a>"],[0,1,"<a href=\"http\/Request.php.html#175\">Illuminate\\Http\\Request::segments<\/a>"],[0,3,"<a href=\"http\/Request.php.html#190\">Illuminate\\Http\\Request::is<\/a>"],[0,2,"<a href=\"http\/Request.php.html#209\">Illuminate\\Http\\Request::routeIs<\/a>"],[0,3,"<a href=\"http\/Request.php.html#220\">Illuminate\\Http\\Request::fullUrlIs<\/a>"],[0,1,"<a href=\"http\/Request.php.html#238\">Illuminate\\Http\\Request::ajax<\/a>"],[0,1,"<a href=\"http\/Request.php.html#248\">Illuminate\\Http\\Request::pjax<\/a>"],[0,2,"<a href=\"http\/Request.php.html#258\">Illuminate\\Http\\Request::prefetch<\/a>"],[0,1,"<a href=\"http\/Request.php.html#269\">Illuminate\\Http\\Request::secure<\/a>"],[0,1,"<a href=\"http\/Request.php.html#279\">Illuminate\\Http\\Request::ip<\/a>"],[0,1,"<a href=\"http\/Request.php.html#289\">Illuminate\\Http\\Request::ips<\/a>"],[0,1,"<a href=\"http\/Request.php.html#299\">Illuminate\\Http\\Request::userAgent<\/a>"],[0,1,"<a href=\"http\/Request.php.html#310\">Illuminate\\Http\\Request::merge<\/a>"],[0,1,"<a href=\"http\/Request.php.html#323\">Illuminate\\Http\\Request::replace<\/a>"],[100,1,"<a href=\"http\/Request.php.html#339\">Illuminate\\Http\\Request::get<\/a>"],[0,3,"<a href=\"http\/Request.php.html#351\">Illuminate\\Http\\Request::json<\/a>"],[66.66666666666666,3,"<a href=\"http\/Request.php.html#369\">Illuminate\\Http\\Request::getInputSource<\/a>"],[0,4,"<a href=\"http\/Request.php.html#385\">Illuminate\\Http\\Request::createFrom<\/a>"],[100,1,"<a href=\"http\/Request.php.html#424\">Illuminate\\Http\\Request::createFromBase<\/a>"],[100,1,"<a href=\"http\/Request.php.html#443\">Illuminate\\Http\\Request::duplicate<\/a>"],[25,5,"<a href=\"http\/Request.php.html#454\">Illuminate\\Http\\Request::filterFiles<\/a>"],[0,2,"<a href=\"http\/Request.php.html#480\">Illuminate\\Http\\Request::session<\/a>"],[0,1,"<a href=\"http\/Request.php.html#494\">Illuminate\\Http\\Request::getSession<\/a>"],[0,1,"<a href=\"http\/Request.php.html#505\">Illuminate\\Http\\Request::setLaravelSession<\/a>"],[0,1,"<a href=\"http\/Request.php.html#516\">Illuminate\\Http\\Request::user<\/a>"],[0,3,"<a href=\"http\/Request.php.html#528\">Illuminate\\Http\\Request::route<\/a>"],[0,2,"<a href=\"http\/Request.php.html#546\">Illuminate\\Http\\Request::fingerprint<\/a>"],[0,1,"<a href=\"http\/Request.php.html#564\">Illuminate\\Http\\Request::setJson<\/a>"],[0,2,"<a href=\"http\/Request.php.html#576\">Illuminate\\Http\\Request::getUserResolver<\/a>"],[100,1,"<a href=\"http\/Request.php.html#589\">Illuminate\\Http\\Request::setUserResolver<\/a>"],[0,2,"<a href=\"http\/Request.php.html#601\">Illuminate\\Http\\Request::getRouteResolver<\/a>"],[100,1,"<a href=\"http\/Request.php.html#614\">Illuminate\\Http\\Request::setRouteResolver<\/a>"],[0,1,"<a href=\"http\/Request.php.html#626\">Illuminate\\Http\\Request::toArray<\/a>"],[0,1,"<a href=\"http\/Request.php.html#637\">Illuminate\\Http\\Request::offsetExists<\/a>"],[0,1,"<a href=\"http\/Request.php.html#651\">Illuminate\\Http\\Request::offsetGet<\/a>"],[0,1,"<a href=\"http\/Request.php.html#663\">Illuminate\\Http\\Request::offsetSet<\/a>"],[0,1,"<a href=\"http\/Request.php.html#674\">Illuminate\\Http\\Request::offsetUnset<\/a>"],[0,1,"<a href=\"http\/Request.php.html#685\">Illuminate\\Http\\Request::__isset<\/a>"],[0,1,"<a href=\"http\/Request.php.html#696\">Illuminate\\Http\\Request::__get<\/a>"],[100,1,"<a href=\"http\/Response.php.html#30\">Illuminate\\Http\\Response::__construct<\/a>"],[62.5,3,"<a href=\"http\/Response.php.html#45\">Illuminate\\Http\\Response::setContent<\/a>"],[100,5,"<a href=\"http\/Response.php.html#76\">Illuminate\\Http\\Response::shouldBeJson<\/a>"],[0,3,"<a href=\"http\/Response.php.html#91\">Illuminate\\Http\\Response::morphToJson<\/a>"],[0,2,"<a href=\"support\/Arr.php.html#19\">Illuminate\\Support\\Arr::accessible<\/a>"],[0,2,"<a href=\"support\/Arr.php.html#32\">Illuminate\\Support\\Arr::add<\/a>"],[0,4,"<a href=\"support\/Arr.php.html#47\">Illuminate\\Support\\Arr::collapse<\/a>"],[0,4,"<a href=\"support\/Arr.php.html#70\">Illuminate\\Support\\Arr::crossJoin<\/a>"],[0,1,"<a href=\"support\/Arr.php.html#97\">Illuminate\\Support\\Arr::divide<\/a>"],[0,4,"<a href=\"support\/Arr.php.html#109\">Illuminate\\Support\\Arr::dot<\/a>"],[0,1,"<a href=\"support\/Arr.php.html#131\">Illuminate\\Support\\Arr::except<\/a>"],[0,2,"<a href=\"support\/Arr.php.html#145\">Illuminate\\Support\\Arr::exists<\/a>"],[0,6,"<a href=\"support\/Arr.php.html#162\">Illuminate\\Support\\Arr::first<\/a>"],[0,3,"<a href=\"support\/Arr.php.html#191\">Illuminate\\Support\\Arr::last<\/a>"],[0,6,"<a href=\"support\/Arr.php.html#207\">Illuminate\\Support\\Arr::flatten<\/a>"],[0,7,"<a href=\"support\/Arr.php.html#237\">Illuminate\\Support\\Arr::forget<\/a>"],[0,8,"<a href=\"support\/Arr.php.html#282\">Illuminate\\Support\\Arr::get<\/a>"],[0,8,"<a href=\"support\/Arr.php.html#318\">Illuminate\\Support\\Arr::has<\/a>"],[0,6,"<a href=\"support\/Arr.php.html#352\">Illuminate\\Support\\Arr::hasAny<\/a>"],[0,1,"<a href=\"support\/Arr.php.html#385\">Illuminate\\Support\\Arr::isAssoc<\/a>"],[0,1,"<a href=\"support\/Arr.php.html#399\">Illuminate\\Support\\Arr::only<\/a>"],[0,5,"<a href=\"support\/Arr.php.html#412\">Illuminate\\Support\\Arr::pluck<\/a>"],[0,4,"<a href=\"support\/Arr.php.html#447\">Illuminate\\Support\\Arr::explodePluckParameters<\/a>"],[0,2,"<a href=\"support\/Arr.php.html#464\">Illuminate\\Support\\Arr::prepend<\/a>"],[0,1,"<a href=\"support\/Arr.php.html#483\">Illuminate\\Support\\Arr::pull<\/a>"],[0,6,"<a href=\"support\/Arr.php.html#501\">Illuminate\\Support\\Arr::random<\/a>"],[0,6,"<a href=\"support\/Arr.php.html#542\">Illuminate\\Support\\Arr::set<\/a>"],[0,2,"<a href=\"support\/Arr.php.html#579\">Illuminate\\Support\\Arr::shuffle<\/a>"],[0,1,"<a href=\"support\/Arr.php.html#599\">Illuminate\\Support\\Arr::sort<\/a>"],[0,4,"<a href=\"support\/Arr.php.html#610\">Illuminate\\Support\\Arr::sortRecursive<\/a>"],[0,1,"<a href=\"support\/Arr.php.html#633\">Illuminate\\Support\\Arr::query<\/a>"],[0,1,"<a href=\"support\/Arr.php.html#645\">Illuminate\\Support\\Arr::where<\/a>"],[0,3,"<a href=\"support\/Arr.php.html#656\">Illuminate\\Support\\Arr::wrap<\/a>"],[0,1,"<a href=\"support\/Env.php.html#32\">Illuminate\\Support\\Env::enablePutenv<\/a>"],[0,1,"<a href=\"support\/Env.php.html#43\">Illuminate\\Support\\Env::disablePutenv<\/a>"],[0,3,"<a href=\"support\/Env.php.html#54\">Illuminate\\Support\\Env::getRepository<\/a>"],[0,10,"<a href=\"support\/Env.php.html#79\">Illuminate\\Support\\Env::get<\/a>"],[0,1,"<a href=\"support\/Str.php.html#50\">Illuminate\\Support\\Str::of<\/a>"],[0,2,"<a href=\"support\/Str.php.html#62\">Illuminate\\Support\\Str::after<\/a>"],[0,3,"<a href=\"support\/Str.php.html#74\">Illuminate\\Support\\Str::afterLast<\/a>"],[0,1,"<a href=\"support\/Str.php.html#96\">Illuminate\\Support\\Str::ascii<\/a>"],[0,2,"<a href=\"support\/Str.php.html#108\">Illuminate\\Support\\Str::before<\/a>"],[0,3,"<a href=\"support\/Str.php.html#120\">Illuminate\\Support\\Str::beforeLast<\/a>"],[0,3,"<a href=\"support\/Str.php.html#143\">Illuminate\\Support\\Str::between<\/a>"],[0,2,"<a href=\"support\/Str.php.html#158\">Illuminate\\Support\\Str::camel<\/a>"],[100,4,"<a href=\"support\/Str.php.html#174\">Illuminate\\Support\\Str::contains<\/a>"],[0,3,"<a href=\"support\/Str.php.html#192\">Illuminate\\Support\\Str::containsAll<\/a>"],[0,4,"<a href=\"support\/Str.php.html#210\">Illuminate\\Support\\Str::endsWith<\/a>"],[0,1,"<a href=\"support\/Str.php.html#228\">Illuminate\\Support\\Str::finish<\/a>"],[0,5,"<a href=\"support\/Str.php.html#242\">Illuminate\\Support\\Str::is<\/a>"],[0,1,"<a href=\"support\/Str.php.html#279\">Illuminate\\Support\\Str::isAscii<\/a>"],[0,2,"<a href=\"support\/Str.php.html#290\">Illuminate\\Support\\Str::isUuid<\/a>"],[0,1,"<a href=\"support\/Str.php.html#305\">Illuminate\\Support\\Str::kebab<\/a>"],[0,2,"<a href=\"support\/Str.php.html#317\">Illuminate\\Support\\Str::length<\/a>"],[0,2,"<a href=\"support\/Str.php.html#334\">Illuminate\\Support\\Str::limit<\/a>"],[0,1,"<a href=\"support\/Str.php.html#349\">Illuminate\\Support\\Str::lower<\/a>"],[0,3,"<a href=\"support\/Str.php.html#362\">Illuminate\\Support\\Str::words<\/a>"],[0,1,"<a href=\"support\/Str.php.html#381\">Illuminate\\Support\\Str::padBoth<\/a>"],[0,1,"<a href=\"support\/Str.php.html#394\">Illuminate\\Support\\Str::padLeft<\/a>"],[0,1,"<a href=\"support\/Str.php.html#407\">Illuminate\\Support\\Str::padRight<\/a>"],[0,2,"<a href=\"support\/Str.php.html#419\">Illuminate\\Support\\Str::parseCallback<\/a>"],[0,1,"<a href=\"support\/Str.php.html#431\">Illuminate\\Support\\Str::plural<\/a>"],[0,1,"<a href=\"support\/Str.php.html#443\">Illuminate\\Support\\Str::pluralStudly<\/a>"],[0,2,"<a href=\"support\/Str.php.html#458\">Illuminate\\Support\\Str::random<\/a>"],[0,2,"<a href=\"support\/Str.php.html#481\">Illuminate\\Support\\Str::replaceArray<\/a>"],[0,3,"<a href=\"support\/Str.php.html#502\">Illuminate\\Support\\Str::replaceFirst<\/a>"],[0,3,"<a href=\"support\/Str.php.html#525\">Illuminate\\Support\\Str::replaceLast<\/a>"],[0,1,"<a href=\"support\/Str.php.html#547\">Illuminate\\Support\\Str::start<\/a>"],[0,1,"<a href=\"support\/Str.php.html#560\">Illuminate\\Support\\Str::upper<\/a>"],[0,1,"<a href=\"support\/Str.php.html#571\">Illuminate\\Support\\Str::title<\/a>"],[0,1,"<a href=\"support\/Str.php.html#582\">Illuminate\\Support\\Str::singular<\/a>"],[0,3,"<a href=\"support\/Str.php.html#595\">Illuminate\\Support\\Str::slug<\/a>"],[0,3,"<a href=\"support\/Str.php.html#623\">Illuminate\\Support\\Str::snake<\/a>"],[0,4,"<a href=\"support\/Str.php.html#647\">Illuminate\\Support\\Str::startsWith<\/a>"],[0,2,"<a href=\"support\/Str.php.html#664\">Illuminate\\Support\\Str::studly<\/a>"],[0,1,"<a href=\"support\/Str.php.html#685\">Illuminate\\Support\\Str::substr<\/a>"],[0,2,"<a href=\"support\/Str.php.html#699\">Illuminate\\Support\\Str::substrCount<\/a>"],[0,1,"<a href=\"support\/Str.php.html#714\">Illuminate\\Support\\Str::ucfirst<\/a>"],[0,2,"<a href=\"support\/Str.php.html#724\">Illuminate\\Support\\Str::uuid<\/a>"],[0,2,"<a href=\"support\/Str.php.html#736\">Illuminate\\Support\\Str::orderedUuid<\/a>"],[0,1,"<a href=\"support\/Str.php.html#762\">Illuminate\\Support\\Str::createUuidsUsing<\/a>"],[0,1,"<a href=\"support\/Str.php.html#772\">Illuminate\\Support\\Str::createUuidsNormally<\/a>"],[0,3,"<a href=\"http\/Concerns\/InteractsWithContentTypes.php.html#16\">Illuminate\\Http\\Concerns\\InteractsWithContentTypes::matchesType<\/a>"],[100,1,"<a href=\"http\/Concerns\/InteractsWithContentTypes.php.html#32\">Illuminate\\Http\\Concerns\\InteractsWithContentTypes::isJson<\/a>"],[0,4,"<a href=\"http\/Concerns\/InteractsWithContentTypes.php.html#42\">Illuminate\\Http\\Concerns\\InteractsWithContentTypes::expectsJson<\/a>"],[0,2,"<a href=\"http\/Concerns\/InteractsWithContentTypes.php.html#52\">Illuminate\\Http\\Concerns\\InteractsWithContentTypes::wantsJson<\/a>"],[0,8,"<a href=\"http\/Concerns\/InteractsWithContentTypes.php.html#65\">Illuminate\\Http\\Concerns\\InteractsWithContentTypes::accepts<\/a>"],[0,7,"<a href=\"http\/Concerns\/InteractsWithContentTypes.php.html#96\">Illuminate\\Http\\Concerns\\InteractsWithContentTypes::prefers<\/a>"],[0,4,"<a href=\"http\/Concerns\/InteractsWithContentTypes.php.html#126\">Illuminate\\Http\\Concerns\\InteractsWithContentTypes::acceptsAnyContentType<\/a>"],[0,1,"<a href=\"http\/Concerns\/InteractsWithContentTypes.php.html#140\">Illuminate\\Http\\Concerns\\InteractsWithContentTypes::acceptsJson<\/a>"],[0,1,"<a href=\"http\/Concerns\/InteractsWithContentTypes.php.html#150\">Illuminate\\Http\\Concerns\\InteractsWithContentTypes::acceptsHtml<\/a>"],[0,3,"<a href=\"http\/Concerns\/InteractsWithContentTypes.php.html#161\">Illuminate\\Http\\Concerns\\InteractsWithContentTypes::format<\/a>"],[0,2,"<a href=\"http\/Concerns\/InteractsWithFlashData.php.html#14\">Illuminate\\Http\\Concerns\\InteractsWithFlashData::old<\/a>"],[0,1,"<a href=\"http\/Concerns\/InteractsWithFlashData.php.html#24\">Illuminate\\Http\\Concerns\\InteractsWithFlashData::flash<\/a>"],[0,2,"<a href=\"http\/Concerns\/InteractsWithFlashData.php.html#35\">Illuminate\\Http\\Concerns\\InteractsWithFlashData::flashOnly<\/a>"],[0,2,"<a href=\"http\/Concerns\/InteractsWithFlashData.php.html#48\">Illuminate\\Http\\Concerns\\InteractsWithFlashData::flashExcept<\/a>"],[0,1,"<a href=\"http\/Concerns\/InteractsWithFlashData.php.html#60\">Illuminate\\Http\\Concerns\\InteractsWithFlashData::flush<\/a>"],[0,1,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#20\">Illuminate\\Http\\Concerns\\InteractsWithInput::server<\/a>"],[0,1,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#31\">Illuminate\\Http\\Concerns\\InteractsWithInput::hasHeader<\/a>"],[100,1,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#43\">Illuminate\\Http\\Concerns\\InteractsWithInput::header<\/a>"],[0,2,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#53\">Illuminate\\Http\\Concerns\\InteractsWithInput::bearerToken<\/a>"],[0,1,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#68\">Illuminate\\Http\\Concerns\\InteractsWithInput::exists<\/a>"],[0,4,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#79\">Illuminate\\Http\\Concerns\\InteractsWithInput::has<\/a>"],[0,2,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#100\">Illuminate\\Http\\Concerns\\InteractsWithInput::hasAny<\/a>"],[0,3,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#116\">Illuminate\\Http\\Concerns\\InteractsWithInput::whenHas<\/a>"],[0,4,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#131\">Illuminate\\Http\\Concerns\\InteractsWithInput::filled<\/a>"],[0,4,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#150\">Illuminate\\Http\\Concerns\\InteractsWithInput::isNotFilled<\/a>"],[0,4,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#169\">Illuminate\\Http\\Concerns\\InteractsWithInput::anyFilled<\/a>"],[0,3,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#189\">Illuminate\\Http\\Concerns\\InteractsWithInput::whenFilled<\/a>"],[0,2,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#204\">Illuminate\\Http\\Concerns\\InteractsWithInput::missing<\/a>"],[0,3,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#217\">Illuminate\\Http\\Concerns\\InteractsWithInput::isEmptyString<\/a>"],[0,1,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#229\">Illuminate\\Http\\Concerns\\InteractsWithInput::keys<\/a>"],[0,4,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#240\">Illuminate\\Http\\Concerns\\InteractsWithInput::all<\/a>"],[0,1,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#264\">Illuminate\\Http\\Concerns\\InteractsWithInput::input<\/a>"],[0,1,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#280\">Illuminate\\Http\\Concerns\\InteractsWithInput::boolean<\/a>"],[0,4,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#291\">Illuminate\\Http\\Concerns\\InteractsWithInput::only<\/a>"],[0,2,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#316\">Illuminate\\Http\\Concerns\\InteractsWithInput::except<\/a>"],[0,1,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#334\">Illuminate\\Http\\Concerns\\InteractsWithInput::query<\/a>"],[0,1,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#346\">Illuminate\\Http\\Concerns\\InteractsWithInput::post<\/a>"],[0,1,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#357\">Illuminate\\Http\\Concerns\\InteractsWithInput::hasCookie<\/a>"],[0,1,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#369\">Illuminate\\Http\\Concerns\\InteractsWithInput::cookie<\/a>"],[0,1,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#379\">Illuminate\\Http\\Concerns\\InteractsWithInput::allFiles<\/a>"],[0,5,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#392\">Illuminate\\Http\\Concerns\\InteractsWithInput::convertUploadedFiles<\/a>"],[0,4,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#411\">Illuminate\\Http\\Concerns\\InteractsWithInput::hasFile<\/a>"],[0,2,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#432\">Illuminate\\Http\\Concerns\\InteractsWithInput::isValidFile<\/a>"],[0,1,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#444\">Illuminate\\Http\\Concerns\\InteractsWithInput::file<\/a>"],[66.66666666666666,2,"<a href=\"http\/Concerns\/InteractsWithInput.php.html#457\">Illuminate\\Http\\Concerns\\InteractsWithInput::retrieveItem<\/a>"],[0,1,"<a href=\"http\/ResponseTrait.php.html#30\">Illuminate\\Http\\ResponseTrait::status<\/a>"],[0,1,"<a href=\"http\/ResponseTrait.php.html#40\">Illuminate\\Http\\ResponseTrait::content<\/a>"],[0,2,"<a href=\"http\/ResponseTrait.php.html#50\">Illuminate\\Http\\ResponseTrait::getOriginalContent<\/a>"],[0,1,"<a href=\"http\/ResponseTrait.php.html#65\">Illuminate\\Http\\ResponseTrait::header<\/a>"],[0,3,"<a href=\"http\/ResponseTrait.php.html#78\">Illuminate\\Http\\ResponseTrait::withHeaders<\/a>"],[0,1,"<a href=\"http\/ResponseTrait.php.html#97\">Illuminate\\Http\\ResponseTrait::cookie<\/a>"],[0,3,"<a href=\"http\/ResponseTrait.php.html#108\">Illuminate\\Http\\ResponseTrait::withCookie<\/a>"],[0,1,"<a href=\"http\/ResponseTrait.php.html#124\">Illuminate\\Http\\ResponseTrait::getCallback<\/a>"],[0,1,"<a href=\"http\/ResponseTrait.php.html#135\">Illuminate\\Http\\ResponseTrait::withException<\/a>"],[0,1,"<a href=\"http\/ResponseTrait.php.html#149\">Illuminate\\Http\\ResponseTrait::throwResponse<\/a>"],[0,1,"<a href=\"support\/Traits\/Macroable.php.html#26\">Illuminate\\Support\\Traits\\Macroable::macro<\/a>"],[0,4,"<a href=\"support\/Traits\/Macroable.php.html#40\">Illuminate\\Support\\Traits\\Macroable::mixin<\/a>"],[0,1,"<a href=\"support\/Traits\/Macroable.php.html#60\">Illuminate\\Support\\Traits\\Macroable::hasMacro<\/a>"],[0,3,"<a href=\"support\/Traits\/Macroable.php.html#74\">Illuminate\\Support\\Traits\\Macroable::__callStatic<\/a>"],[0,3,"<a href=\"support\/Traits\/Macroable.php.html#100\">Illuminate\\Support\\Traits\\Macroable::__call<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

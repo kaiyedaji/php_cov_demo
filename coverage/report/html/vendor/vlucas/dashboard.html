@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for D:\code\lumen-7.0.0\vendor\vlucas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=9.2.32" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=9.2.32" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=9.2.32" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">D:\code\lumen-7.0.0</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">vendor</a></li>
+         <li class="breadcrumb-item"><a href="index.html">vlucas</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="phpdotenv/src/Dotenv.php.html#15">Dotenv\Dotenv</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/PutenvAdapter.php.html#7">Dotenv\Repository\Adapter\PutenvAdapter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Store/File/Reader.php.html#7">Dotenv\Store\File\Reader</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Store/File/Paths.php.html#5">Dotenv\Store\File\Paths</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Store/FileStore.php.html#8">Dotenv\Store\FileStore</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Result/Success.php.html#13">Dotenv\Result\Success</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Result/Result.php.html#9">Dotenv\Result\Result</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/RepositoryBuilder.php.html#11">Dotenv\Repository\RepositoryBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/ServerConstAdapter.php.html#8">Dotenv\Repository\Adapter\ServerConstAdapter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/EnvConstAdapter.php.html#8">Dotenv\Repository\Adapter\EnvConstAdapter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Lines.php.html#5">Dotenv\Loader\Lines</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/ArrayAdapter.php.html#8">Dotenv\Repository\Adapter\ArrayAdapter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/AdapterRepository.php.html#5">Dotenv\Repository\AdapterRepository</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/AbstractRepository.php.html#9">Dotenv\Repository\AbstractRepository</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Regex/Regex.php.html#9">Dotenv\Regex\Regex</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Value.php.html#5">Dotenv\Loader\Value</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Parser.php.html#11">Dotenv\Loader\Parser</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Loader.php.html#9">Dotenv\Loader\Loader</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Store/StoreBuilder.php.html#7">Dotenv\Store\StoreBuilder</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="phpdotenv/src/Loader/Parser.php.html#11">Dotenv\Loader\Parser</a></td><td class="text-right">1482</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/AbstractRepository.php.html#9">Dotenv\Repository\AbstractRepository</a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Lines.php.html#5">Dotenv\Loader\Lines</a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="phpdotenv/src/Regex/Regex.php.html#9">Dotenv\Regex\Regex</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/RepositoryBuilder.php.html#11">Dotenv\Repository\RepositoryBuilder</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="phpdotenv/src/Dotenv.php.html#15">Dotenv\Dotenv</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="phpdotenv/src/Store/StoreBuilder.php.html#7">Dotenv\Store\StoreBuilder</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/AdapterRepository.php.html#5">Dotenv\Repository\AdapterRepository</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Loader.php.html#9">Dotenv\Loader\Loader</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/EnvConstAdapter.php.html#8">Dotenv\Repository\Adapter\EnvConstAdapter</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/ServerConstAdapter.php.html#8">Dotenv\Repository\Adapter\ServerConstAdapter</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Value.php.html#5">Dotenv\Loader\Value</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/PutenvAdapter.php.html#7">Dotenv\Repository\Adapter\PutenvAdapter</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="phpdotenv/src/Store/File/Reader.php.html#7">Dotenv\Store\File\Reader</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/ArrayAdapter.php.html#8">Dotenv\Repository\Adapter\ArrayAdapter</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="phpdotenv/src/Store/FileStore.php.html#8">Dotenv\Store\FileStore</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="phpdotenv/src/Store/File/Paths.php.html#5">Dotenv\Store\File\Paths</a></td><td class="text-right">12</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="phpdotenv/src/Dotenv.php.html#47"><abbr title="Dotenv\Dotenv::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/PutenvAdapter.php.html#14"><abbr title="Dotenv\Repository\Adapter\PutenvAdapter::isSupported">isSupported</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/RepositoryBuilder.php.html#55"><abbr title="Dotenv\Repository\RepositoryBuilder::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/RepositoryBuilder.php.html#43"><abbr title="Dotenv\Repository\RepositoryBuilder::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/ServerConstAdapter.php.html#68"><abbr title="Dotenv\Repository\Adapter\ServerConstAdapter::clear">clear</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/ServerConstAdapter.php.html#56"><abbr title="Dotenv\Repository\Adapter\ServerConstAdapter::set">set</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/ServerConstAdapter.php.html#27"><abbr title="Dotenv\Repository\Adapter\ServerConstAdapter::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/ServerConstAdapter.php.html#15"><abbr title="Dotenv\Repository\Adapter\ServerConstAdapter::isSupported">isSupported</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/PutenvAdapter.php.html#52"><abbr title="Dotenv\Repository\Adapter\PutenvAdapter::clear">clear</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/PutenvAdapter.php.html#40"><abbr title="Dotenv\Repository\Adapter\PutenvAdapter::set">set</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/PutenvAdapter.php.html#26"><abbr title="Dotenv\Repository\Adapter\PutenvAdapter::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/EnvConstAdapter.php.html#68"><abbr title="Dotenv\Repository\Adapter\EnvConstAdapter::clear">clear</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/RepositoryBuilder.php.html#81"><abbr title="Dotenv\Repository\RepositoryBuilder::withWriters">withWriters</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/EnvConstAdapter.php.html#56"><abbr title="Dotenv\Repository\Adapter\EnvConstAdapter::set">set</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/EnvConstAdapter.php.html#27"><abbr title="Dotenv\Repository\Adapter\EnvConstAdapter::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/EnvConstAdapter.php.html#15"><abbr title="Dotenv\Repository\Adapter\EnvConstAdapter::isSupported">isSupported</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/ArrayAdapter.php.html#63"><abbr title="Dotenv\Repository\Adapter\ArrayAdapter::clear">clear</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/ArrayAdapter.php.html#51"><abbr title="Dotenv\Repository\Adapter\ArrayAdapter::set">set</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/ArrayAdapter.php.html#34"><abbr title="Dotenv\Repository\Adapter\ArrayAdapter::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/ArrayAdapter.php.html#22"><abbr title="Dotenv\Repository\Adapter\ArrayAdapter::isSupported">isSupported</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/AdapterRepository.php.html#80"><abbr title="Dotenv\Repository\AdapterRepository::clearInternal">clearInternal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/AdapterRepository.php.html#66"><abbr title="Dotenv\Repository\AdapterRepository::setInternal">setInternal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/RepositoryBuilder.php.html#67"><abbr title="Dotenv\Repository\RepositoryBuilder::withReaders">withReaders</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/RepositoryBuilder.php.html#93"><abbr title="Dotenv\Repository\RepositoryBuilder::immutable">immutable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/AdapterRepository.php.html#30"><abbr title="Dotenv\Repository\AdapterRepository::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Store/FileStore.php.html#32"><abbr title="Dotenv\Store\FileStore::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Store/StoreBuilder.php.html#85"><abbr title="Dotenv\Store\StoreBuilder::shortCircuit">shortCircuit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Store/StoreBuilder.php.html#75"><abbr title="Dotenv\Store\StoreBuilder::withNames">withNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Store/StoreBuilder.php.html#63"><abbr title="Dotenv\Store\StoreBuilder::withPaths">withPaths</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Store/StoreBuilder.php.html#51"><abbr title="Dotenv\Store\StoreBuilder::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Store/StoreBuilder.php.html#39"><abbr title="Dotenv\Store\StoreBuilder::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Store/File/Reader.php.html#45"><abbr title="Dotenv\Store\File\Reader::readFromFile">readFromFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Store/File/Reader.php.html#21"><abbr title="Dotenv\Store\File\Reader::read">read</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Store/File/Paths.php.html#15"><abbr title="Dotenv\Store\File\Paths::filePaths">filePaths</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Store/FileStore.php.html#45"><abbr title="Dotenv\Store\FileStore::read">read</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Result/Success.php.html#89"><abbr title="Dotenv\Result\Success::mapError">mapError</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/RepositoryBuilder.php.html#103"><abbr title="Dotenv\Repository\RepositoryBuilder::make">make</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Result/Success.php.html#75"><abbr title="Dotenv\Result\Success::error">error</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Result/Success.php.html#65"><abbr title="Dotenv\Result\Success::mapSuccess">mapSuccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Result/Success.php.html#51"><abbr title="Dotenv\Result\Success::success">success</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Result/Success.php.html#41"><abbr title="Dotenv\Result\Success::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Result/Success.php.html#27"><abbr title="Dotenv\Result\Success::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Result/Result.php.html#55"><abbr title="Dotenv\Result\Result::getError">getError</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Result/Result.php.html#25"><abbr title="Dotenv\Result\Result::getSuccess">getSuccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/RepositoryBuilder.php.html#138"><abbr title="Dotenv\Repository\RepositoryBuilder::filterByAvailability">filterByAvailability</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/RepositoryBuilder.php.html#121"><abbr title="Dotenv\Repository\RepositoryBuilder::defaultAdapters">defaultAdapters</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/AdapterRepository.php.html#46"><abbr title="Dotenv\Repository\AdapterRepository::getInternal">getInternal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/AbstractRepository.php.html#176"><abbr title="Dotenv\Repository\AbstractRepository::offsetUnset">offsetUnset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Dotenv.php.html#64"><abbr title="Dotenv\Dotenv::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Lines.php.html#71"><abbr title="Dotenv\Loader\Lines::looksLikeMultilineStart">looksLikeMultilineStart</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Parser.php.html#30"><abbr title="Dotenv\Loader\Parser::parse">parse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Loader.php.html#110"><abbr title="Dotenv\Loader\Loader::resolveNestedVariable">resolveNestedVariable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Loader.php.html#87"><abbr title="Dotenv\Loader\Loader::resolveNestedVariables">resolveNestedVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Loader.php.html#61"><abbr title="Dotenv\Loader\Loader::processEntries">processEntries</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Loader.php.html#40"><abbr title="Dotenv\Loader\Loader::load">load</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Loader.php.html#25"><abbr title="Dotenv\Loader\Loader::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Lines.php.html#127"><abbr title="Dotenv\Loader\Lines::isCommentOrWhitespace">isCommentOrWhitespace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Lines.php.html#112"><abbr title="Dotenv\Loader\Lines::getCharPairs">getCharPairs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Lines.php.html#88"><abbr title="Dotenv\Loader\Lines::looksLikeMultilineStop">looksLikeMultilineStop</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Lines.php.html#42"><abbr title="Dotenv\Loader\Lines::multilineProcess">multilineProcess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Parser.php.html#73"><abbr title="Dotenv\Loader\Parser::parseName">parseName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Lines.php.html#16"><abbr title="Dotenv\Loader\Lines::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Dotenv.php.html#196"><abbr title="Dotenv\Dotenv::ifPresent">ifPresent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Dotenv.php.html#184"><abbr title="Dotenv\Dotenv::required">required</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Dotenv.php.html#167"><abbr title="Dotenv\Dotenv::safeLoad">safeLoad</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Dotenv.php.html#155"><abbr title="Dotenv\Dotenv::load">load</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Dotenv.php.html#137"><abbr title="Dotenv\Dotenv::parse">parse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Dotenv.php.html#116"><abbr title="Dotenv\Dotenv::createArrayBacked">createArrayBacked</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Dotenv.php.html#100"><abbr title="Dotenv\Dotenv::createImmutable">createImmutable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Dotenv.php.html#84"><abbr title="Dotenv\Dotenv::createMutable">createMutable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Parser.php.html#46"><abbr title="Dotenv\Loader\Parser::splitStringIntoParts">splitStringIntoParts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Parser.php.html#93"><abbr title="Dotenv\Loader\Parser::isValidName">isValidName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/AbstractRepository.php.html#167"><abbr title="Dotenv\Repository\AbstractRepository::offsetSet">offsetSet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Regex/Regex.php.html#68"><abbr title="Dotenv\Regex\Regex::split">split</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/AbstractRepository.php.html#158"><abbr title="Dotenv\Repository\AbstractRepository::offsetGet">offsetGet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/AbstractRepository.php.html#149"><abbr title="Dotenv\Repository\AbstractRepository::offsetExists">offsetExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/AbstractRepository.php.html#140"><abbr title="Dotenv\Repository\AbstractRepository::has">has</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/AbstractRepository.php.html#110"><abbr title="Dotenv\Repository\AbstractRepository::clear">clear</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/AbstractRepository.php.html#75"><abbr title="Dotenv\Repository\AbstractRepository::set">set</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/AbstractRepository.php.html#47"><abbr title="Dotenv\Repository\AbstractRepository::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/AbstractRepository.php.html#32"><abbr title="Dotenv\Repository\AbstractRepository::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Regex/Regex.php.html#106"><abbr title="Dotenv\Regex\Regex::lookupError">lookupError</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Regex/Regex.php.html#86"><abbr title="Dotenv\Regex\Regex::pregAndWrap">pregAndWrap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Regex/Regex.php.html#53"><abbr title="Dotenv\Regex\Regex::replaceCallback">replaceCallback</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Parser.php.html#107"><abbr title="Dotenv\Loader\Parser::parseValue">parseValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Regex/Regex.php.html#36"><abbr title="Dotenv\Regex\Regex::replace">replace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Regex/Regex.php.html#19"><abbr title="Dotenv\Regex\Regex::match">match</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Value.php.html#76"><abbr title="Dotenv\Loader\Value::getVars">getVars</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Value.php.html#66"><abbr title="Dotenv\Loader\Value::getChars">getChars</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Value.php.html#53"><abbr title="Dotenv\Loader\Value::append">append</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Value.php.html#40"><abbr title="Dotenv\Loader\Value::blank">blank</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Value.php.html#29"><abbr title="Dotenv\Loader\Value::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Parser.php.html#241"><abbr title="Dotenv\Loader\Parser::getErrorMessage">getErrorMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Parser.php.html#144"><abbr title="Dotenv\Loader\Parser::processChar">processChar</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="phpdotenv/src/Store/StoreBuilder.php.html#95"><abbr title="Dotenv\Store\StoreBuilder::make">make</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="phpdotenv/src/Loader/Parser.php.html#144"><abbr title="Dotenv\Loader\Parser::processChar">processChar</abbr></a></td><td class="text-right">702</td></tr>
+       <tr><td><a href="phpdotenv/src/Regex/Regex.php.html#106"><abbr title="Dotenv\Regex\Regex::lookupError">lookupError</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Lines.php.html#88"><abbr title="Dotenv\Loader\Lines::looksLikeMultilineStop">looksLikeMultilineStop</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/AbstractRepository.php.html#75"><abbr title="Dotenv\Repository\AbstractRepository::set">set</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Lines.php.html#42"><abbr title="Dotenv\Loader\Lines::multilineProcess">multilineProcess</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/RepositoryBuilder.php.html#103"><abbr title="Dotenv\Repository\RepositoryBuilder::make">make</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Lines.php.html#16"><abbr title="Dotenv\Loader\Lines::process">process</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="phpdotenv/src/Store/File/Reader.php.html#21"><abbr title="Dotenv\Store\File\Reader::read">read</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Loader.php.html#61"><abbr title="Dotenv\Loader\Loader::processEntries">processEntries</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/AbstractRepository.php.html#110"><abbr title="Dotenv\Repository\AbstractRepository::clear">clear</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Parser.php.html#107"><abbr title="Dotenv\Loader\Parser::parseValue">parseValue</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/EnvConstAdapter.php.html#27"><abbr title="Dotenv\Repository\Adapter\EnvConstAdapter::get">get</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/ServerConstAdapter.php.html#27"><abbr title="Dotenv\Repository\Adapter\ServerConstAdapter::get">get</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/AdapterRepository.php.html#46"><abbr title="Dotenv\Repository\AdapterRepository::getInternal">getInternal</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/AbstractRepository.php.html#140"><abbr title="Dotenv\Repository\AbstractRepository::has">has</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/AbstractRepository.php.html#47"><abbr title="Dotenv\Repository\AbstractRepository::get">get</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="phpdotenv/src/Store/FileStore.php.html#45"><abbr title="Dotenv\Store\FileStore::read">read</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="phpdotenv/src/Store/File/Paths.php.html#15"><abbr title="Dotenv\Store\File\Paths::filePaths">filePaths</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Parser.php.html#46"><abbr title="Dotenv\Loader\Parser::splitStringIntoParts">splitStringIntoParts</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Lines.php.html#127"><abbr title="Dotenv\Loader\Lines::isCommentOrWhitespace">isCommentOrWhitespace</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/RepositoryBuilder.php.html#67"><abbr title="Dotenv\Repository\RepositoryBuilder::withReaders">withReaders</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/RepositoryBuilder.php.html#81"><abbr title="Dotenv\Repository\RepositoryBuilder::withWriters">withWriters</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="phpdotenv/src/Store/StoreBuilder.php.html#75"><abbr title="Dotenv\Store\StoreBuilder::withNames">withNames</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/PutenvAdapter.php.html#14"><abbr title="Dotenv\Repository\Adapter\PutenvAdapter::isSupported">isSupported</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="phpdotenv/src/Dotenv.php.html#47"><abbr title="Dotenv\Dotenv::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/Adapter/ArrayAdapter.php.html#34"><abbr title="Dotenv\Repository\Adapter\ArrayAdapter::get">get</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/AdapterRepository.php.html#80"><abbr title="Dotenv\Repository\AdapterRepository::clearInternal">clearInternal</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="phpdotenv/src/Repository/AdapterRepository.php.html#66"><abbr title="Dotenv\Repository\AdapterRepository::setInternal">setInternal</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="phpdotenv/src/Dotenv.php.html#64"><abbr title="Dotenv\Dotenv::create">create</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="phpdotenv/src/Regex/Regex.php.html#86"><abbr title="Dotenv\Regex\Regex::pregAndWrap">pregAndWrap</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="phpdotenv/src/Regex/Regex.php.html#53"><abbr title="Dotenv\Regex\Regex::replaceCallback">replaceCallback</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="phpdotenv/src/Regex/Regex.php.html#36"><abbr title="Dotenv\Regex\Regex::replace">replace</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Value.php.html#53"><abbr title="Dotenv\Loader\Value::append">append</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Parser.php.html#73"><abbr title="Dotenv\Loader\Parser::parseName">parseName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="phpdotenv/src/Loader/Lines.php.html#71"><abbr title="Dotenv\Loader\Lines::looksLikeMultilineStart">looksLikeMultilineStart</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="phpdotenv/src/Dotenv.php.html#167"><abbr title="Dotenv\Dotenv::safeLoad">safeLoad</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="phpdotenv/src/Store/StoreBuilder.php.html#95"><abbr title="Dotenv\Store\StoreBuilder::make">make</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.32</a> using <a href="https://secure.php.net/" target="_top">PHP 7.4.0</a> at Tue Sep 16 10:21:30 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=9.2.32" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=9.2.32" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=9.2.32" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([19,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([95,0,0,0,0,0,0,0,0,0,0,7], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,13,"<a href=\"phpdotenv\/src\/Dotenv.php.html#15\">Dotenv\\Dotenv<\/a>"],[0,21,"<a href=\"phpdotenv\/src\/Loader\/Lines.php.html#5\">Dotenv\\Loader\\Lines<\/a>"],[0,8,"<a href=\"phpdotenv\/src\/Loader\/Loader.php.html#9\">Dotenv\\Loader\\Loader<\/a>"],[0,38,"<a href=\"phpdotenv\/src\/Loader\/Parser.php.html#11\">Dotenv\\Loader\\Parser<\/a>"],[0,6,"<a href=\"phpdotenv\/src\/Loader\/Value.php.html#5\">Dotenv\\Loader\\Value<\/a>"],[0,17,"<a href=\"phpdotenv\/src\/Regex\/Regex.php.html#9\">Dotenv\\Regex\\Regex<\/a>"],[0,21,"<a href=\"phpdotenv\/src\/Repository\/AbstractRepository.php.html#9\">Dotenv\\Repository\\AbstractRepository<\/a>"],[0,8,"<a href=\"phpdotenv\/src\/Repository\/AdapterRepository.php.html#5\">Dotenv\\Repository\\AdapterRepository<\/a>"],[0,5,"<a href=\"phpdotenv\/src\/Repository\/Adapter\/ArrayAdapter.php.html#8\">Dotenv\\Repository\\Adapter\\ArrayAdapter<\/a>"],[0,7,"<a href=\"phpdotenv\/src\/Repository\/Adapter\/EnvConstAdapter.php.html#8\">Dotenv\\Repository\\Adapter\\EnvConstAdapter<\/a>"],[0,5,"<a href=\"phpdotenv\/src\/Repository\/Adapter\/PutenvAdapter.php.html#7\">Dotenv\\Repository\\Adapter\\PutenvAdapter<\/a>"],[0,7,"<a href=\"phpdotenv\/src\/Repository\/Adapter\/ServerConstAdapter.php.html#8\">Dotenv\\Repository\\Adapter\\ServerConstAdapter<\/a>"],[0,14,"<a href=\"phpdotenv\/src\/Repository\/RepositoryBuilder.php.html#11\">Dotenv\\Repository\\RepositoryBuilder<\/a>"],[0,2,"<a href=\"phpdotenv\/src\/Result\/Result.php.html#9\">Dotenv\\Result\\Result<\/a>"],[0,6,"<a href=\"phpdotenv\/src\/Result\/Success.php.html#13\">Dotenv\\Result\\Success<\/a>"],[0,4,"<a href=\"phpdotenv\/src\/Store\/FileStore.php.html#8\">Dotenv\\Store\\FileStore<\/a>"],[0,3,"<a href=\"phpdotenv\/src\/Store\/File\/Paths.php.html#5\">Dotenv\\Store\\File\\Paths<\/a>"],[0,5,"<a href=\"phpdotenv\/src\/Store\/File\/Reader.php.html#7\">Dotenv\\Store\\File\\Reader<\/a>"],[0,8,"<a href=\"phpdotenv\/src\/Store\/StoreBuilder.php.html#7\">Dotenv\\Store\\StoreBuilder<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,2,"<a href=\"phpdotenv\/src\/Dotenv.php.html#47\">Dotenv\\Dotenv::__construct<\/a>"],[0,2,"<a href=\"phpdotenv\/src\/Dotenv.php.html#64\">Dotenv\\Dotenv::create<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Dotenv.php.html#84\">Dotenv\\Dotenv::createMutable<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Dotenv.php.html#100\">Dotenv\\Dotenv::createImmutable<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Dotenv.php.html#116\">Dotenv\\Dotenv::createArrayBacked<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Dotenv.php.html#137\">Dotenv\\Dotenv::parse<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Dotenv.php.html#155\">Dotenv\\Dotenv::load<\/a>"],[0,2,"<a href=\"phpdotenv\/src\/Dotenv.php.html#167\">Dotenv\\Dotenv::safeLoad<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Dotenv.php.html#184\">Dotenv\\Dotenv::required<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Dotenv.php.html#196\">Dotenv\\Dotenv::ifPresent<\/a>"],[0,4,"<a href=\"phpdotenv\/src\/Loader\/Lines.php.html#16\">Dotenv\\Loader\\Lines::process<\/a>"],[0,5,"<a href=\"phpdotenv\/src\/Loader\/Lines.php.html#42\">Dotenv\\Loader\\Lines::multilineProcess<\/a>"],[0,2,"<a href=\"phpdotenv\/src\/Loader\/Lines.php.html#71\">Dotenv\\Loader\\Lines::looksLikeMultilineStart<\/a>"],[0,6,"<a href=\"phpdotenv\/src\/Loader\/Lines.php.html#88\">Dotenv\\Loader\\Lines::looksLikeMultilineStop<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Loader\/Lines.php.html#112\">Dotenv\\Loader\\Lines::getCharPairs<\/a>"],[0,3,"<a href=\"phpdotenv\/src\/Loader\/Lines.php.html#127\">Dotenv\\Loader\\Lines::isCommentOrWhitespace<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Loader\/Loader.php.html#25\">Dotenv\\Loader\\Loader::__construct<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Loader\/Loader.php.html#40\">Dotenv\\Loader\\Loader::load<\/a>"],[0,4,"<a href=\"phpdotenv\/src\/Loader\/Loader.php.html#61\">Dotenv\\Loader\\Loader::processEntries<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Loader\/Loader.php.html#87\">Dotenv\\Loader\\Loader::resolveNestedVariables<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Loader\/Loader.php.html#110\">Dotenv\\Loader\\Loader::resolveNestedVariable<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Loader\/Parser.php.html#30\">Dotenv\\Loader\\Parser::parse<\/a>"],[0,3,"<a href=\"phpdotenv\/src\/Loader\/Parser.php.html#46\">Dotenv\\Loader\\Parser::splitStringIntoParts<\/a>"],[0,2,"<a href=\"phpdotenv\/src\/Loader\/Parser.php.html#73\">Dotenv\\Loader\\Parser::parseName<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Loader\/Parser.php.html#93\">Dotenv\\Loader\\Parser::isValidName<\/a>"],[0,4,"<a href=\"phpdotenv\/src\/Loader\/Parser.php.html#107\">Dotenv\\Loader\\Parser::parseValue<\/a>"],[0,26,"<a href=\"phpdotenv\/src\/Loader\/Parser.php.html#144\">Dotenv\\Loader\\Parser::processChar<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Loader\/Parser.php.html#241\">Dotenv\\Loader\\Parser::getErrorMessage<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Loader\/Value.php.html#29\">Dotenv\\Loader\\Value::__construct<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Loader\/Value.php.html#40\">Dotenv\\Loader\\Value::blank<\/a>"],[0,2,"<a href=\"phpdotenv\/src\/Loader\/Value.php.html#53\">Dotenv\\Loader\\Value::append<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Loader\/Value.php.html#66\">Dotenv\\Loader\\Value::getChars<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Loader\/Value.php.html#76\">Dotenv\\Loader\\Value::getVars<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Regex\/Regex.php.html#19\">Dotenv\\Regex\\Regex::match<\/a>"],[0,2,"<a href=\"phpdotenv\/src\/Regex\/Regex.php.html#36\">Dotenv\\Regex\\Regex::replace<\/a>"],[0,2,"<a href=\"phpdotenv\/src\/Regex\/Regex.php.html#53\">Dotenv\\Regex\\Regex::replaceCallback<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Regex\/Regex.php.html#68\">Dotenv\\Regex\\Regex::split<\/a>"],[0,2,"<a href=\"phpdotenv\/src\/Regex\/Regex.php.html#86\">Dotenv\\Regex\\Regex::pregAndWrap<\/a>"],[0,9,"<a href=\"phpdotenv\/src\/Regex\/Regex.php.html#106\">Dotenv\\Regex\\Regex::lookupError<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Repository\/AbstractRepository.php.html#32\">Dotenv\\Repository\\AbstractRepository::__construct<\/a>"],[0,3,"<a href=\"phpdotenv\/src\/Repository\/AbstractRepository.php.html#47\">Dotenv\\Repository\\AbstractRepository::get<\/a>"],[100,0,"<a href=\"phpdotenv\/src\/Repository\/AbstractRepository.php.html#63\">Dotenv\\Repository\\AbstractRepository::getInternal<\/a>"],[0,6,"<a href=\"phpdotenv\/src\/Repository\/AbstractRepository.php.html#75\">Dotenv\\Repository\\AbstractRepository::set<\/a>"],[100,0,"<a href=\"phpdotenv\/src\/Repository\/AbstractRepository.php.html#99\">Dotenv\\Repository\\AbstractRepository::setInternal<\/a>"],[0,4,"<a href=\"phpdotenv\/src\/Repository\/AbstractRepository.php.html#110\">Dotenv\\Repository\\AbstractRepository::clear<\/a>"],[100,0,"<a href=\"phpdotenv\/src\/Repository\/AbstractRepository.php.html#131\">Dotenv\\Repository\\AbstractRepository::clearInternal<\/a>"],[0,3,"<a href=\"phpdotenv\/src\/Repository\/AbstractRepository.php.html#140\">Dotenv\\Repository\\AbstractRepository::has<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Repository\/AbstractRepository.php.html#149\">Dotenv\\Repository\\AbstractRepository::offsetExists<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Repository\/AbstractRepository.php.html#158\">Dotenv\\Repository\\AbstractRepository::offsetGet<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Repository\/AbstractRepository.php.html#167\">Dotenv\\Repository\\AbstractRepository::offsetSet<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Repository\/AbstractRepository.php.html#176\">Dotenv\\Repository\\AbstractRepository::offsetUnset<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Repository\/AdapterRepository.php.html#30\">Dotenv\\Repository\\AdapterRepository::__construct<\/a>"],[0,3,"<a href=\"phpdotenv\/src\/Repository\/AdapterRepository.php.html#46\">Dotenv\\Repository\\AdapterRepository::getInternal<\/a>"],[0,2,"<a href=\"phpdotenv\/src\/Repository\/AdapterRepository.php.html#66\">Dotenv\\Repository\\AdapterRepository::setInternal<\/a>"],[0,2,"<a href=\"phpdotenv\/src\/Repository\/AdapterRepository.php.html#80\">Dotenv\\Repository\\AdapterRepository::clearInternal<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Repository\/Adapter\/ArrayAdapter.php.html#22\">Dotenv\\Repository\\Adapter\\ArrayAdapter::isSupported<\/a>"],[0,2,"<a href=\"phpdotenv\/src\/Repository\/Adapter\/ArrayAdapter.php.html#34\">Dotenv\\Repository\\Adapter\\ArrayAdapter::get<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Repository\/Adapter\/ArrayAdapter.php.html#51\">Dotenv\\Repository\\Adapter\\ArrayAdapter::set<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Repository\/Adapter\/ArrayAdapter.php.html#63\">Dotenv\\Repository\\Adapter\\ArrayAdapter::clear<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Repository\/Adapter\/EnvConstAdapter.php.html#15\">Dotenv\\Repository\\Adapter\\EnvConstAdapter::isSupported<\/a>"],[0,4,"<a href=\"phpdotenv\/src\/Repository\/Adapter\/EnvConstAdapter.php.html#27\">Dotenv\\Repository\\Adapter\\EnvConstAdapter::get<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Repository\/Adapter\/EnvConstAdapter.php.html#56\">Dotenv\\Repository\\Adapter\\EnvConstAdapter::set<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Repository\/Adapter\/EnvConstAdapter.php.html#68\">Dotenv\\Repository\\Adapter\\EnvConstAdapter::clear<\/a>"],[0,2,"<a href=\"phpdotenv\/src\/Repository\/Adapter\/PutenvAdapter.php.html#14\">Dotenv\\Repository\\Adapter\\PutenvAdapter::isSupported<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Repository\/Adapter\/PutenvAdapter.php.html#26\">Dotenv\\Repository\\Adapter\\PutenvAdapter::get<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Repository\/Adapter\/PutenvAdapter.php.html#40\">Dotenv\\Repository\\Adapter\\PutenvAdapter::set<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Repository\/Adapter\/PutenvAdapter.php.html#52\">Dotenv\\Repository\\Adapter\\PutenvAdapter::clear<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Repository\/Adapter\/ServerConstAdapter.php.html#15\">Dotenv\\Repository\\Adapter\\ServerConstAdapter::isSupported<\/a>"],[0,4,"<a href=\"phpdotenv\/src\/Repository\/Adapter\/ServerConstAdapter.php.html#27\">Dotenv\\Repository\\Adapter\\ServerConstAdapter::get<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Repository\/Adapter\/ServerConstAdapter.php.html#56\">Dotenv\\Repository\\Adapter\\ServerConstAdapter::set<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Repository\/Adapter\/ServerConstAdapter.php.html#68\">Dotenv\\Repository\\Adapter\\ServerConstAdapter::clear<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Repository\/RepositoryBuilder.php.html#43\">Dotenv\\Repository\\RepositoryBuilder::__construct<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Repository\/RepositoryBuilder.php.html#55\">Dotenv\\Repository\\RepositoryBuilder::create<\/a>"],[0,2,"<a href=\"phpdotenv\/src\/Repository\/RepositoryBuilder.php.html#67\">Dotenv\\Repository\\RepositoryBuilder::withReaders<\/a>"],[0,2,"<a href=\"phpdotenv\/src\/Repository\/RepositoryBuilder.php.html#81\">Dotenv\\Repository\\RepositoryBuilder::withWriters<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Repository\/RepositoryBuilder.php.html#93\">Dotenv\\Repository\\RepositoryBuilder::immutable<\/a>"],[0,5,"<a href=\"phpdotenv\/src\/Repository\/RepositoryBuilder.php.html#103\">Dotenv\\Repository\\RepositoryBuilder::make<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Repository\/RepositoryBuilder.php.html#121\">Dotenv\\Repository\\RepositoryBuilder::defaultAdapters<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Repository\/RepositoryBuilder.php.html#138\">Dotenv\\Repository\\RepositoryBuilder::filterByAvailability<\/a>"],[100,0,"<a href=\"phpdotenv\/src\/Result\/Result.php.html#16\">Dotenv\\Result\\Result::success<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Result\/Result.php.html#25\">Dotenv\\Result\\Result::getSuccess<\/a>"],[100,0,"<a href=\"phpdotenv\/src\/Result\/Result.php.html#39\">Dotenv\\Result\\Result::mapSuccess<\/a>"],[100,0,"<a href=\"phpdotenv\/src\/Result\/Result.php.html#46\">Dotenv\\Result\\Result::error<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Result\/Result.php.html#55\">Dotenv\\Result\\Result::getError<\/a>"],[100,0,"<a href=\"phpdotenv\/src\/Result\/Result.php.html#69\">Dotenv\\Result\\Result::mapError<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Result\/Success.php.html#27\">Dotenv\\Result\\Success::__construct<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Result\/Success.php.html#41\">Dotenv\\Result\\Success::create<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Result\/Success.php.html#51\">Dotenv\\Result\\Success::success<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Result\/Success.php.html#65\">Dotenv\\Result\\Success::mapSuccess<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Result\/Success.php.html#75\">Dotenv\\Result\\Success::error<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Result\/Success.php.html#89\">Dotenv\\Result\\Success::mapError<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Store\/FileStore.php.html#32\">Dotenv\\Store\\FileStore::__construct<\/a>"],[0,3,"<a href=\"phpdotenv\/src\/Store\/FileStore.php.html#45\">Dotenv\\Store\\FileStore::read<\/a>"],[0,3,"<a href=\"phpdotenv\/src\/Store\/File\/Paths.php.html#15\">Dotenv\\Store\\File\\Paths::filePaths<\/a>"],[0,4,"<a href=\"phpdotenv\/src\/Store\/File\/Reader.php.html#21\">Dotenv\\Store\\File\\Reader::read<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Store\/File\/Reader.php.html#45\">Dotenv\\Store\\File\\Reader::readFromFile<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Store\/StoreBuilder.php.html#39\">Dotenv\\Store\\StoreBuilder::__construct<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Store\/StoreBuilder.php.html#51\">Dotenv\\Store\\StoreBuilder::create<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Store\/StoreBuilder.php.html#63\">Dotenv\\Store\\StoreBuilder::withPaths<\/a>"],[0,2,"<a href=\"phpdotenv\/src\/Store\/StoreBuilder.php.html#75\">Dotenv\\Store\\StoreBuilder::withNames<\/a>"],[0,1,"<a href=\"phpdotenv\/src\/Store\/StoreBuilder.php.html#85\">Dotenv\\Store\\StoreBuilder::shortCircuit<\/a>"],[0,2,"<a href=\"phpdotenv\/src\/Store\/StoreBuilder.php.html#95\">Dotenv\\Store\\StoreBuilder::make<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
